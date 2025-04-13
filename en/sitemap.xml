@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://offer365.github.io/blog.offer365.github.io/en/categories/</loc>
+    <loc>https://offer365.github.io/blog/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://offer365.github.io/blog.offer365.github.io/categories/"
+                href="https://offer365.github.io/blog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://offer365.github.io/blog.offer365.github.io/en/categories/"
+                href="https://offer365.github.io/blog/en/categories/"
                 />
   </url><url>
-    <loc>https://offer365.github.io/blog.offer365.github.io/en/</loc>
+    <loc>https://offer365.github.io/blog/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://offer365.github.io/blog.offer365.github.io/"
+                href="https://offer365.github.io/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://offer365.github.io/blog.offer365.github.io/en/"
+                href="https://offer365.github.io/blog/en/"
                 />
   </url><url>
-    <loc>https://offer365.github.io/blog.offer365.github.io/en/tags/</loc>
+    <loc>https://offer365.github.io/blog/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://offer365.github.io/blog.offer365.github.io/tags/"
+                href="https://offer365.github.io/blog/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://offer365.github.io/blog.offer365.github.io/en/tags/"
+                href="https://offer365.github.io/blog/en/tags/"
                 />
   </url>
 </urlset>
