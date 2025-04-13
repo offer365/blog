@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ABB on 涛哥的Blog</title>
+        <link>http://localhost:1313/blog/categories/abb/</link>
+        <description>Recent content in ABB on 涛哥的Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Sun, 13 Apr 2025 17:46:20 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/abb/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ABB变频器Acs510</title>
+        <link>http://localhost:1313/blog/p/vfd-abb-acs510/</link>
+        <pubDate>Sun, 13 Apr 2025 17:46:20 +0800</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/vfd-abb-acs510/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/p/vfd-abb-acs510/abb.jpg" alt="Featured image of post ABB变频器Acs510" /&gt;&lt;h2 id=&#34;abb-acs510-变频器&#34;&gt;ABB ACS510 变频器
+&lt;/h2&gt;&lt;h3 id=&#34;485接线&#34;&gt;485接线
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-485-1.png&#34;
+	width=&#34;654&#34;
+	height=&#34;208&#34;
+	srcset=&#34;http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-485-1_hu_f0d63ea6b5f26a6a.png 480w, http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-485-1_hu_b1f8cf5893a435d9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;变频器485接线&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;314&#34;
+		data-flex-basis=&#34;754px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;485通讯设置&#34;&gt;485通讯设置
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;参数代码&lt;/th&gt;
+          &lt;th&gt;设置值&lt;/th&gt;
+          &lt;th&gt;描述&lt;/th&gt;
+          &lt;th&gt;页码&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;9802&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;激活串行通讯，设置为1（标准MODBUS）&lt;/td&gt;
+          &lt;td&gt;143&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5302&lt;/td&gt;
+          &lt;td&gt;&amp;gt;0&lt;/td&gt;
+          &lt;td&gt;485从站地址&lt;/td&gt;
+          &lt;td&gt;143&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5303&lt;/td&gt;
+          &lt;td&gt;9.6&lt;/td&gt;
+          &lt;td&gt;波特率，单位为Kb/s&lt;/td&gt;
+          &lt;td&gt;144&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5304&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;RS485 通讯的数据长度，奇偶校验位和停止位。&lt;/br&gt;0=8,1,N&lt;/br&gt;1=8,2,N&lt;/br&gt;2=8,1,E&lt;/br&gt;3=8,1,O&lt;/td&gt;
+          &lt;td&gt;144&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5305&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;协议控制类型&lt;/td&gt;
+          &lt;td&gt;144&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1001&lt;/td&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;起/停和方向信号来自现场总线控制字。&lt;/td&gt;
+          &lt;td&gt;70&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1002&lt;/td&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;起/停和方向信号来自现场总线控制字。&lt;/td&gt;
+          &lt;td&gt;70&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1003&lt;/td&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;方向可以通过命令切换&lt;/td&gt;
+          &lt;td&gt;71&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1102&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;– 选择外部控制 1&lt;/td&gt;
+          &lt;td&gt;70&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1103&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;给定值来自串行通讯&lt;/td&gt;
+          &lt;td&gt;72&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1106&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;给定值来自串行通讯&lt;/td&gt;
+          &lt;td&gt;72&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4010&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;给定值来自串行通讯&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!ATTENTION]
+在对通讯设置进行任何修改之后，通讯协议必须通过传动重新上电或者将站点
+(5302) 清除然后再次设置来激活。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;modbus地址&lt;/th&gt;
+          &lt;th&gt;读/写&lt;/th&gt;
+          &lt;th&gt;位数&lt;/th&gt;
+          &lt;th&gt;描述&lt;/th&gt;
+          &lt;th&gt;页码&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40001&lt;/td&gt;
+          &lt;td&gt;写&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;控制启停&lt;/br&gt;启动值 1151 &lt;/br&gt; 停止值 1143 &lt;/br&gt;初始化值 1142&lt;/td&gt;
+          &lt;td&gt;146&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40002&lt;/td&gt;
+          &lt;td&gt;写&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;设定频率,设定值范围0-20000对应实际频率0-50.00Hz，实际频率乘400即，设定值&lt;/td&gt;
+          &lt;td&gt;146&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40005&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;使用参数 5310（定义映射到 Modbus 寄存器 40005 上的参数。） 为该寄存器选择不同的实际值。&lt;/td&gt;
+          &lt;td&gt;158，121&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40006&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;使用参数 5311（定义映射到 Modbus 寄存器 40006 上的参数。） 为该寄存器选择不同的实际值。&lt;/td&gt;
+          &lt;td&gt;158，121&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40102&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;速度&lt;/br&gt;输出频率&lt;/br&gt;电流&lt;/br&gt;转矩&lt;/br&gt;功率&lt;/br&gt;母线电压&lt;/br&gt;输出电压&lt;/td&gt;
+          &lt;td&gt;149&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40102&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;速度&lt;/td&gt;
+          &lt;td&gt;149&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40103&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;输出频率(需要除以10)&lt;/td&gt;
+          &lt;td&gt;149&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40104&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;电流&lt;/td&gt;
+          &lt;td&gt;149&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40105&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;转矩&lt;/td&gt;
+          &lt;td&gt;149&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40106&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;功率&lt;/td&gt;
+          &lt;td&gt;149&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40107&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;直流母线电压&lt;/td&gt;
+          &lt;td&gt;149r&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40109&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;输出电压&lt;/td&gt;
+          &lt;td&gt;149&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;40301&lt;/td&gt;
+          &lt;td&gt;读&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;总线状态字含义&lt;/br&gt;8：停止状态 &lt;/br&gt;9：运行状态&lt;/br&gt;14：准备好&lt;/br&gt;15：复位完成&lt;/td&gt;
+          &lt;td&gt;149&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;启动命令假设变频器的从站地址01下同&#34;&gt;启动命令（假设变频器的从站地址=01，下同）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;ACS510的通讯启动过程：
+变频器上电以后（状态为不具备合闸条件（NOT READY TO SWITCH ON）），要逐个进行6次成功的通讯才可启动完毕（每次通讯变频器的回应应与PLC所发内容相同）：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使变频器具备合闸条件（READY TO SWITCH ON）：&lt;/br&gt;
+01 06 00 00 00 06 09 C8&lt;/li&gt;
+&lt;li&gt;使变频器给定1的值清0（CLEAR THE EXT REF1）：&lt;/br&gt;
+01 06 00 01 00 00 D8 0A&lt;/li&gt;
+&lt;li&gt;使变频器状态为准备就绪（READY TO OPERATE）：&lt;/br&gt;
+01 06 00 00 00 07 C8 08&lt;/li&gt;
+&lt;li&gt;使变频器状态为允许运行（OPERATION ENABLED）：&lt;/br&gt;
+01 06 00 00 00 0F C9 CE&lt;/li&gt;
+&lt;li&gt;使变频器状态为允许加速（ACCELERATOR ENABLED）：&lt;/br&gt;
+01 06 00 00 00 2F C8 16&lt;/li&gt;
+&lt;li&gt;使变频器状态为运行（OPERATING）：&lt;/br&gt;
+01 06 00 00 00 6F C9 E6&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;停止命令&#34;&gt;停止命令
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;要停止正在运行的变频器，应发停止命令（不应该以0速命令代替停止命令）。&lt;/br&gt;
+停止命令有3种：急停1（变频器按照减速时间1（见参数2203 DECELER TIME 1）减速停止）；&lt;/br&gt;
+急停2（设备按照惯性减速停止）；&lt;/br&gt;
+急停3（变频器按照减速时间2（见参数2205 DECELER TIME 2）减速停止）。&lt;/br&gt;
+一般可使用急停1（变频器的回应应与PLC所发内容相同）： &lt;/br&gt;
+01 06 00 00 00 6D 48 27&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;改变运行速度命令&#34;&gt;改变运行速度命令
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;正在运行（OPERATING）的变频器可接收变速命令，即通讯给定。&lt;/br&gt;
+写入给定1保持寄存器的值0-20000对应变频器输出速度0-EXT REF1 MAX（Hz，参数1105）。&lt;/br&gt;
+例如EXT REF1 MAX=50.0 Hz，则欲使变频器输出1 0.0 Hz，应写入20000÷5=4000即 0F A0。&lt;/br&gt;
+（变频器的回应应与PLC所发内容相同）：&lt;/br&gt;
+01 06 00 01 00 00 D8 0A &lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;读变频器数据参数&#34;&gt;读变频器数据参数
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;可以经通讯读变频器参数如输出速度、电流、转矩、功率等参数。&lt;/br&gt;
+若所读参数在变频器寄存器地址上连续，还可用1条读命令读多个参数。&lt;/br&gt;
+如要读取输出电流： 01 03 00 67 00 01 35 D5  &lt;/br&gt;
+变频器的回应： 01 03  01  电流H 电流L CRCL CRCH &lt;/br&gt;
+如要读取输出频率、电流、转矩、功率连续4个参数： &lt;/br&gt;
+01 03 00 66 00 04 A4 16 &lt;/br&gt;
+变频器的回应：  01  03  04 频率H 频率L 电流H 电流L 转矩H 转矩L 功率H 功率L CRCL CRCH &lt;/br&gt;
+若读回的电流字（电流H 电流L）= 01  A5 则实际电流数值为16#01A5=42.1A。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-args-set.png&#34;
+	width=&#34;672&#34;
+	height=&#34;475&#34;
+	srcset=&#34;http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-args-set_hu_79e8e4291e8793cc.png 480w, http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-args-set_hu_3d7f493bf735f50f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;变频器参数设置&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;vfd-abb-acs510-manual.pdf&#34; &gt;ACS510说明书下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;资料&lt;a class=&#34;link&#34; href=&#34;http://www.gongkong.com/article/201606/66937.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;参考1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;资料&lt;a class=&#34;link&#34; href=&#34;http://www.gongkong.com/article/201606/66937.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;参考1&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

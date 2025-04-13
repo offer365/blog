@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Modbus on 涛哥的Blog</title>
+        <link>https://offer365.github.io/blog/categories/modbus/</link>
+        <description>Recent content in Modbus on 涛哥的Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Sun, 13 Apr 2025 16:28:51 +0800</lastBuildDate><atom:link href="https://offer365.github.io/blog/categories/modbus/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ModbusRtu</title>
+        <link>https://offer365.github.io/blog/p/mcgs-modbus_rtu/</link>
+        <pubDate>Sun, 13 Apr 2025 16:28:51 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/mcgs-modbus_rtu/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post ModbusRtu" /&gt;&lt;h2 id=&#34;mcgs-与-modbus-rtu通讯&#34;&gt;Mcgs 与 Modbus RTU通讯
+&lt;/h2&gt;&lt;h3 id=&#34;基础知识&#34;&gt;基础知识
+&lt;/h3&gt;&lt;h4 id=&#34;hmi串口引脚定义&#34;&gt;HMI串口引脚定义
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy.jpg&#34;
+	width=&#34;273&#34;
+	height=&#34;101&#34;
+	srcset=&#34;https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy_hu_6261006bfe11d509.jpg 480w, https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy_hu_e4b769d1933caaf9.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;串口引脚定义&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;270&#34;
+		data-flex-basis=&#34;648px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;table&gt;
+   &lt;tr&gt;
+        &lt;td colspan=&#34;1&#34; align=&#34;center&#34;&gt;接口&lt;/td&gt;
+        &lt;td colspan=&#34;1&#34; align=&#34;center&#34;&gt;PIN&lt;/td&gt;
+        &lt;td colspan=&#34;1&#34; align=&#34;center&#34;&gt;引脚定义&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;3&#34;&gt;COM1&lt;/br&gt;(RS232)&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;RS232RXD&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;RS232TXD&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;GND&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;COM2&lt;/br&gt;(RS485)&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;RS485+&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;RS485-&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;COM3&lt;/br&gt;(RS485)&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;RS485+&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;RS485-&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;5&#34;&gt;COM9&lt;/br&gt;(RS422)&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;TXD+&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;TXD-&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;GND&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;RXD+&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;RXD-&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;支持的寄存器及功能码说明如下&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;寄存器&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;读功能码&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;写功能码&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;功能码说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[1区]输入继电器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x02&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;ndash;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0x02: 读取输入状态&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[0区]输出继电器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x01&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x05、0x0F&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0x01: 读取线圈状态&lt;/br&gt;0x05: 强制单个线圈&lt;/br&gt;0x0F: 强制多个线圈&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[3区]输入寄存器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x04&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;ndash;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0x04: 读输入寄存器&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[4区]输出寄存器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x03&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x06、0x10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0x03: 读保持寄存器&lt;/br&gt;0x06: 预置单个寄存器&lt;/br&gt;0x10: 预置多个寄存器&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!ATTENTION]
+添加寄存器通道时，起始地址均为1，这是遵从modbusrtu协议，即所谓的“协议地址”，对于部分寄存器起始地址为0的设备，通道添加时，地址应加1处理&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;plc协议说明&#34;&gt;PLC协议说明
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;离散量输出（线圈）和保持寄存器支持读请求和写请求。离散量输入（触点）和输入寄存器仅支持读请求。&lt;/br&gt;
+参数地址 (Addr) 是起始 Modbus 地址。S7‑200 SMART 支持以下地址范围：&lt;/br&gt;
+对于离散量输出（线圈），为 00001 至 09999&lt;/br&gt;
+对于离散量输入（触点），为 10001 至 19999&lt;/br&gt;
+对于输入寄存器，为 30001 至 39999&lt;/br&gt;
+对于保持寄存器，为 40001 至 49999 和 400001 至 465535&lt;/br&gt;
+Modbus 从站设备支持的地址决定了 Addr 的实际取值范围。&lt;/br&gt;
+参数“计数”(Count) 用于分配要在该请求中读取或写入的数据元素数。&lt;/br&gt;
+对于位数据类型，“Count”是位数，对于字数据类型，则表示字数。&lt;/br&gt;
+对于地址 0xxxx，“计数”(Count) 是要读取或写入的位数&lt;/br&gt;
+对于地址 1xxxx，“计数”(Count) 是要读取的位数&lt;/br&gt;
+对于地址 3xxxx，“计数”(Count) 是要读取的输入寄存器字数&lt;/br&gt;
+对于地址 4xxxx 或 4yyyyy，“计数”(Count) 是要读取或写入的保持寄存器字数&lt;/br&gt;
+MBUS_MSG/MB_MSG2 指令最多读取或写入 120 个字或 1920 个位（240 个字节的数据）。&lt;/br&gt;
+Count 的实际限值取决于 Modbus 从站设备的限制。&lt;/br&gt;
+参数 DataPtr 是间接地址指针，指向 CPU 中与读/写请求相关的数据的 V 存储器。&lt;/br&gt;
+对于读请求，将 DataPtr 设置为用于存储从 Modbus 从站读取的数据的第一个 CPU 存储单元。&lt;/br&gt;
+对于写请求，将 DataPtr 设置为要发送到 Modbus 从站的数据的第一个 CPU 存储单元。&lt;/br&gt;
+程序将 DataPtr 值以间接地址指针的形式传递到 MBUS_MSG/MB_MSG2。&lt;/br&gt;
+例如，如果要写入到 Modbus 从站设备的数据始于 CPU 的地址 VW200，则 DataPtr 的值将为 &amp;amp;VB200（地址 VB200）。指针必须始终是 VB 类型，即使它们指向字数据。&lt;/br&gt;
+保持寄存器（地址 4xxxx 或 4yyyyy）和输入寄存器（地址 3xxxx）是字值（2 个字节或 16 个位）。&lt;/br&gt;
+CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址是寄存器的最高有效字节。编号较大的 V 存储器地址是寄存器的最低有效字节。下表显示了 CPU 字节和字寻址如何与 Modbus 寄存器格式相对应。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;1.通讯参数设置
+“通用串口父设备”通讯参数设置，选择串口端口号，波特率，校验方式等。
+添加子设备，设置设备的从站地址。
+2.添加设备通道&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;设备帮助文档&#34;&gt;设备帮助文档
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;modbusrtuex_str.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -7,7 +7,47 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://offer365.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 18:02:48 +0800</lastBuildDate><atom:link href="https://offer365.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>PDF</title>
+        <link>https://offer365.github.io/blog/categories/pdf/</link>
+        <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/categories/pdf/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>工控</title>
+        <link>https://offer365.github.io/blog/categories/%E5%B7%A5%E6%8E%A7/</link>
+        <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/categories/%E5%B7%A5%E6%8E%A7/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>PID</title>
+        <link>https://offer365.github.io/blog/categories/pid/</link>
+        <pubDate>Sun, 13 Apr 2025 17:19:11 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/categories/pid/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Mcgs</title>
+        <link>https://offer365.github.io/blog/categories/mcgs/</link>
+        <pubDate>Sun, 13 Apr 2025 16:52:41 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/categories/mcgs/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Modbus</title>
+        <link>https://offer365.github.io/blog/categories/modbus/</link>
+        <pubDate>Sun, 13 Apr 2025 16:28:51 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/categories/modbus/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Test</title>
         <link>https://offer365.github.io/blog/categories/test/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -37,22 +77,6 @@
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
         <guid>https://offer365.github.io/blog/categories/themes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>تجربة</title>
-        <link>https://offer365.github.io/blog/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://offer365.github.io/blog/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>تجربة مع فراغات</title>
-        <link>https://offer365.github.io/blog/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://offer365.github.io/blog/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</guid>
         <description></description>
         </item>
         

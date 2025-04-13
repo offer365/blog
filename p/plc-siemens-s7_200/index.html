@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="一些编程经验">
+<title>西门子S7-200(Smart)</title>
+
+<link rel='canonical' href='http://localhost:1313/blog/p/plc-siemens-s7_200/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="西门子S7-200(Smart)">
+<meta property='og:description' content="一些编程经验">
+<meta property='og:url' content='http://localhost:1313/blog/p/plc-siemens-s7_200/'>
+<meta property='og:site_name' content='涛哥的Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-13T17:32:47&#43;08:00'/><meta property='article:modified_time' content='2025-04-13T17:32:47&#43;08:00'/><meta property='og:image' content='http://localhost:1313/blog/p/plc-siemens-s7_200/S7-200%20SMART.png' />
+<meta name="twitter:title" content="西门子S7-200(Smart)">
+<meta name="twitter:description" content="一些编程经验"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/blog/p/plc-siemens-s7_200/S7-200%20SMART.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/blog/img/avatar_hu_c22bcfd3641bafbc.png" width="300"
+                            height="407" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">😆</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog">涛哥的Blog</a></h1>
+            <h2 class="site-description">前端/后端/GUI/物联网/单片机/自动化/嵌入式</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/27614970'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/offer365'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/blog/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/blog/en/" >English</option>
+                                
+                                    <option value="http://localhost:1313/blog/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#编程经验">编程经验</a></li>
+    <li><a href="#编程规范">编程规范</a>
+      <ol>
+        <li><a href="#1-io分配">1. I/O分配</a></li>
+        <li><a href="#2-内存元件规划">2. 内存元件规划</a></li>
+        <li><a href="#3-参数计算部分编程">3. 参数计算部分编程</a></li>
+        <li><a href="#4-动作执行程序编程">4. 动作执行程序编程</a>
+          <ol>
+            <li><a href="#安全互锁保护">安全、互锁、保护</a></li>
+          </ol>
+        </li>
+        <li><a href="#5-整体程序优化减轻plc运行负荷精简程序">5. 整体程序优化减轻PLC运行负荷，精简程序</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/p/plc-siemens-s7_200/">
+                <img src="/blog/p/plc-siemens-s7_200/S7-200%20SMART_hu_b0d2826b26fa87d0.png"
+                        srcset="/blog/p/plc-siemens-s7_200/S7-200%20SMART_hu_b0d2826b26fa87d0.png 800w, /blog/p/plc-siemens-s7_200/S7-200%20SMART_hu_ba204878539d570c.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 西门子S7-200(Smart)" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/plc/" >
+                PLC
+            </a>
+        
+            <a href="/blog/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/" >
+                西门子
+            </a>
+        
+            <a href="/blog/categories/%E5%B7%A5%E6%8E%A7/" >
+                工控
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/p/plc-siemens-s7_200/">西门子S7-200(Smart)</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            一些编程经验
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-04-13</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 5 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="编程经验">编程经验
+</h2><blockquote>
+<ol>
+<li>自加或自减前面要有沿信号。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="2">
+<li>PLC梯形图中停止或急停按钮可以常开 -| |-,而在外部的接线中使用常闭，如因接触不良或线路故障，可自动急停。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="3">
+<li>一定要看示例程序。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="4">
+<li>当一个子程序在一个扫描周期内多次调用时，在子程序中不能使用沿信号/定时器/计数器。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="5">
+<li>INT 表示有符号的整数。WORD 表示无符号整数。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="6">
+<li>字节不能为负数，但字和双字可以。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="7">
+<li>指针在子程序中，只能作为IN参数。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="8">
+<li>smart 200 模拟量采集满量程范围27648单极。4-20ma  5530-27648。 s7-200 为32000。4-20ma  6400-32000。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="9">
+<li>模拟量的选择，优先选用电流型，现场实践证明，电流型比电压型抗干扰能力高80%。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="10">
+<li>优先选用模拟量类型去调控第三方控制器件，因为模拟量的响应速度要远远大于通信的响应速度。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="11">
+<li>对于使用起保停编程法写的程序。启动按钮需要使用沿信号。电路中使用自复位按钮，如果按钮出现物理损坏，按钮不能自动复位，在PLC中使用沿信号可以保证按钮只接通一次。</li>
+</ol></blockquote>
+<h2 id="编程规范">编程规范
+</h2><h3 id="1-io分配">1. I/O分配
+</h3><blockquote>
+<p>合理的I/O分配是程序稳定的坚实基础</br>
+把功能一样的输入、输出归结在一起。</br>
+这样做方便程序编写，查找方便，外部接线也不容易接错。</br>
+如果点数允许的情况下，预先空出高速计数和脉冲输出(Q0.0、Q0.1 和 Q0.3)的输入输出点。以备工艺上的变更。</br>
+急停按钮，停止按钮，前进、后退、上升、下降这些极限限位，推荐外部接开关的常闭触点，程序里面用常开触点，这样的好处是，执行机构不会因为开关失灵，而造成机械设备损伤等意外。</p></blockquote>
+<h3 id="2-内存元件规划">2. 内存元件规划
+</h3><blockquote>
+<p>内存软元件规划</br>
+稳定的程序离不开良好的软元件规划</br>
+同样的工艺，有的程序看起来错综复杂，没有头绪，而有的程序看起来清爽无比，一目了然，这就是内存软元件合理规划的结果。</br>   <br>
+VB0-VB19分配给读取系统时间相关以及类型转换。</br>
+VB20-VB27分配给写入统时间。</br>
+VB50-VB90分配给写入错误代码。</br>
+M0.0-M0.7 分配给系统全局标志位。</br>
+m3.0-m5.0 分配给Modbus通讯选择。</br>
+m27.0-m31.7 分配给Modbus通讯标志位。</br>
+做到同区域连续使用，切勿乱序使用。</br>
+需要运算的以偶数开头，用浮点数运算，这样既能提高运算精度，又能避免地址冲突和叠加。</br>
+因为整数、双整数的除法运算存在余数问题，需要占用额外的寄存器存放余数，使用浮点运算就能避免这个问题。</br>
+在多轴控制系统中，建议每轴的运算存储寄存器也要区别开。</br>
+在写程序时先规划地址，再写程序。并为地址写好注释。</br>
+程序符号命名规则如下表。</br></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>功能</th>
+          <th>规则</th>
+          <th>举例</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>手自动切换</td>
+          <td>*_ha</td>
+          <td>b1_ha</td>
+      </tr>
+      <tr>
+          <td>手动启停</td>
+          <td>*_on_off</td>
+          <td>b1_on_off</td>
+      </tr>
+      <tr>
+          <td>报警</td>
+          <td>alert_ *</td>
+          <td>alert_dyw</td>
+      </tr>
+      <tr>
+          <td>警告</td>
+          <td>warn_ *</td>
+          <td>warn_dyw</td>
+      </tr>
+      <tr>
+          <td>真实值</td>
+          <td>real_*</td>
+          <td>real_yw</td>
+      </tr>
+      <tr>
+          <td>原始值</td>
+          <td>ori_*</td>
+          <td>ori_yw</td>
+      </tr>
+      <tr>
+          <td>上限</td>
+          <td>*_upper</td>
+          <td>yw_upper</td>
+      </tr>
+      <tr>
+          <td>下限</td>
+          <td>*_lower</td>
+          <td>yw_lower</td>
+      </tr>
+      <tr>
+          <td>某和</td>
+          <td>sum_*</td>
+          <td>sum_yw</td>
+      </tr>
+      <tr>
+          <td>开始时</td>
+          <td>*_start_hour</td>
+          <td>b1_start_hour</td>
+      </tr>
+      <tr>
+          <td>开始分</td>
+          <td>*_start_mui</td>
+          <td>b1_start_mui</td>
+      </tr>
+      <tr>
+          <td>结束时</td>
+          <td>*_stop_hour</td>
+          <td>b1_stop_hour</td>
+      </tr>
+      <tr>
+          <td>结束分</td>
+          <td>*_stop_mui</td>
+          <td>b1_stop_mui</td>
+      </tr>
+      <tr>
+          <td>运行时间</td>
+          <td>*_run_time</td>
+          <td>b1_run_time</td>
+      </tr>
+      <tr>
+          <td>间隔时间</td>
+          <td>*_spac_time</td>
+          <td>b1_spac_time</td>
+      </tr>
+      <tr>
+          <td>标志位</td>
+          <td>*_flag</td>
+          <td>b1_on_flag</td>
+      </tr>
+      <tr>
+          <td>模式</td>
+          <td>*_mode</td>
+          <td>b1_mode</td>
+      </tr>
+      <tr>
+          <td>临时值</td>
+          <td>temp_*</td>
+          <td>temp_yw</td>
+      </tr>
+      <tr>
+          <td>从站号</td>
+          <td>slave_*</td>
+          <td>slave_b1</td>
+      </tr>
+      <tr>
+          <td>类型选择</td>
+          <td>*_type</td>
+          <td>b1_type</td>
+      </tr>
+      <tr>
+          <td>选用</td>
+          <td>select_*</td>
+          <td>select_b1</td>
+      </tr>
+      <tr>
+          <td>设置值</td>
+          <td>Set*</td>
+          <td>SetYear</td>
+      </tr>
+      <tr>
+          <td>读写地址</td>
+          <td>*_addr</td>
+          <td>b1_addr</td>
+      </tr>
+      <tr>
+          <td>状态记录</td>
+          <td>*_status</td>
+          <td>b1_status</td>
+      </tr>
+      <tr>
+          <td>周期</td>
+          <td>*_cycle</td>
+          <td>b1_cycle</td>
+      </tr>
+      <tr>
+          <td>清除</td>
+          <td>clear_*</td>
+          <td>clear_yw</td>
+      </tr>
+      <tr>
+          <td>平均值</td>
+          <td>avg_*</td>
+          <td>avg_yw</td>
+      </tr>
+      <tr>
+          <td>错误</td>
+          <td>*_err</td>
+          <td>b1_err</td>
+      </tr>
+  </tbody>
+</table></div></blockquote>
+<blockquote>
+<p>内存规划就象仓库划分区域一样，不同的区域存放不同的数据，不同的用途，划分不同的区域，做到有迹可循。</p></blockquote>
+<h3 id="3-参数计算部分编程">3. 参数计算部分编程
+</h3><blockquote>
+<p>先乘后除，提高计算精度。</br>
+建议所有的数据运算全部使用浮点运算，这样触摸屏上的参数显示和设置用统一的格式32位浮点数。</br>
+触摸屏上的显示参数控件和设置参数控件用颜色加以区分，这样不会误导操作人员，也会避免不必要的麻烦。</br>
+例如灰底黑框为显示控件，白底黑框为输入控件。</br>
+做四则运算的时候，先乘后除，提高计算精度。运算公式，先进行精简，精简之后再拿到PLC里面做程序。</br>
+减少除法，对于比较简单的除法，可以用乘以倒数的形式。比如除以a/2，可以写成a*0.5。</br>
+对于复杂的运算公式，鉴于PLC的梯形图实现起来不直观，可以放到触摸屏脚本里面实现，计算完成之后，把结果再回传到PLC里面。</br>
+PLC程序里面先进行数据运算，运算完成之后，再拿运算结果进行比较，或者执行其它的动作输出。</p></blockquote>
+<h3 id="4-动作执行程序编程">4. 动作执行程序编程
+</h3><blockquote>
+<h4 id="安全互锁保护">安全、互锁、保护
+</h4><ol>
+<li>编写紧急停止、停止、限位部分的程序，防止调试的时候，设备不能停下来，或者造成机械设备的损坏。</br>
+首先要保证安全，想停止的时候，能停下来，其次才能进行其他部分程序的编写，一套没有安全保护机制的程序不是完善、完整的程序。</br></li>
+</ol></blockquote>
+<blockquote>
+<ol start="2">
+<li>进行手动部分程序的编写，方便机械部分调试的顺利进行。对于正反转的控制，不仅外部接线要进行电气的互锁，而且程序里面也要加上互锁部分。
+对于SET置位指令，要考虑是否用了锁存寄存器（断电保持型），在上电初始化的时候是否加上复位RST，以防设备突然启动，或者动作不按照预定动作执行。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="3">
+<li>对于高速脉冲输出指令等使用，要先进行脉冲频率、脉冲数量、加减速时间等参数的赋值，然后再启动高速脉冲指令。</li>
+</ol></blockquote>
+<blockquote>
+<ol start="4">
+<li>进行自动部分程序的编写，当手动部分的程序编写完善之后，自动部分的程序可谓是水到渠成。</li>
+</ol></blockquote>
+<h3 id="5-整体程序优化减轻plc运行负荷精简程序">5. 整体程序优化减轻PLC运行负荷，精简程序
+</h3><blockquote>
+<p>PLC扫描周期的时间长短，对程序能否顺畅执行，起着至关重要的作用，在输出响应要求高的场合更能体现出来。</br>
+总体来说PLC程序步骤越多，PLC的扫描周期时间越长，因此就需要把整个程序进行优化。</br>
+把程序按功能逻辑优化成若干个子程序，基本数据的运算，手动部分的操作，配方的上传下载，在执行自动程序的时候，以上程序并不是必须要执行的，因此可以把他们切除掉。</br>
+特别说明</br>
+指令的扫描时间和指令的执行时间不是一个概念，只要指令在主程序里面，PLC都会去扫描他们，具体执行与否是要看指令前面是否导通、使能。</br>
+譬如，当M8.0导通的时候，PLC会执行后面的四条浮点除法运算指令。当M8.0不导通的时候，PLC则不会执行后面的指令，但还是会去扫描他们，并不会跳转下去执行别的指令，当程序里面这种状况多的时候，还是会延长扫描周期的时间。</br>
+所以，整个程序就有了化繁为简的优化空间。</br>
+初始化的参数，因为只执行一次，所以放在一个子程序里面，用作上电初始化。</p></blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/blog/p/device-pdf/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">一些设备的PDF文档</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/blog/p/vfd-abb-acs510/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/p/vfd-abb-acs510/abb.ead501dc6d55c1b31263b5c99226cf97_hu_f9880bc3a6463a9f.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ABB变频器Acs510"
+                        data-key="vfd-abb-acs510" 
+                        data-hash="md5-6tUB3G1VwbMSY7XJkibPlw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ABB变频器Acs510</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/blog/p/industrial-control-pid/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/p/industrial-control-pid/pid.25683575f9a89707307687c67d5cd4a8_hu_19a200062ceeb99d.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post PID整定"
+                        data-key="industrial-control-pid" 
+                        data-hash="md5-JWg1dfmolwcwdofGfVzUqA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">PID整定</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        
+            爱科技，爱生活 <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.e6fba373a7729ac9b0568bb62730cd49168c00082db367e0fcd137cfb0c9ba5e.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

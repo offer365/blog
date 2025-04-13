@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>西门子 on 涛哥的Blog</title>
+        <link>http://localhost:1313/blog/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</link>
+        <description>Recent content in 西门子 on 涛哥的Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Sun, 13 Apr 2025 17:32:47 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>西门子S7-200(Smart)</title>
+        <link>http://localhost:1313/blog/p/plc-siemens-s7_200/</link>
+        <pubDate>Sun, 13 Apr 2025 17:32:47 +0800</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/plc-siemens-s7_200/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/p/plc-siemens-s7_200/S7-200%20SMART.png" alt="Featured image of post 西门子S7-200(Smart)" /&gt;&lt;h2 id=&#34;编程经验&#34;&gt;编程经验
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;自加或自减前面要有沿信号。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;PLC梯形图中停止或急停按钮可以常开 -| |-,而在外部的接线中使用常闭，如因接触不良或线路故障，可自动急停。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;一定要看示例程序。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;当一个子程序在一个扫描周期内多次调用时，在子程序中不能使用沿信号/定时器/计数器。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;INT 表示有符号的整数。WORD 表示无符号整数。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;字节不能为负数，但字和双字可以。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;指针在子程序中，只能作为IN参数。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;smart 200 模拟量采集满量程范围27648单极。4-20ma  5530-27648。 s7-200 为32000。4-20ma  6400-32000。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;模拟量的选择，优先选用电流型，现场实践证明，电流型比电压型抗干扰能力高80%。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;10&#34;&gt;
+&lt;li&gt;优先选用模拟量类型去调控第三方控制器件，因为模拟量的响应速度要远远大于通信的响应速度。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;对于使用起保停编程法写的程序。启动按钮需要使用沿信号。电路中使用自复位按钮，如果按钮出现物理损坏，按钮不能自动复位，在PLC中使用沿信号可以保证按钮只接通一次。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;编程规范&#34;&gt;编程规范
+&lt;/h2&gt;&lt;h3 id=&#34;1-io分配&#34;&gt;1. I/O分配
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;合理的I/O分配是程序稳定的坚实基础&lt;/br&gt;
+把功能一样的输入、输出归结在一起。&lt;/br&gt;
+这样做方便程序编写，查找方便，外部接线也不容易接错。&lt;/br&gt;
+如果点数允许的情况下，预先空出高速计数和脉冲输出(Q0.0、Q0.1 和 Q0.3)的输入输出点。以备工艺上的变更。&lt;/br&gt;
+急停按钮，停止按钮，前进、后退、上升、下降这些极限限位，推荐外部接开关的常闭触点，程序里面用常开触点，这样的好处是，执行机构不会因为开关失灵，而造成机械设备损伤等意外。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;2-内存元件规划&#34;&gt;2. 内存元件规划
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;内存软元件规划&lt;/br&gt;
+稳定的程序离不开良好的软元件规划&lt;/br&gt;
+同样的工艺，有的程序看起来错综复杂，没有头绪，而有的程序看起来清爽无比，一目了然，这就是内存软元件合理规划的结果。&lt;/br&gt;   &lt;br&gt;
+VB0-VB19分配给读取系统时间相关以及类型转换。&lt;/br&gt;
+VB20-VB27分配给写入统时间。&lt;/br&gt;
+VB50-VB90分配给写入错误代码。&lt;/br&gt;
+M0.0-M0.7 分配给系统全局标志位。&lt;/br&gt;
+m3.0-m5.0 分配给Modbus通讯选择。&lt;/br&gt;
+m27.0-m31.7 分配给Modbus通讯标志位。&lt;/br&gt;
+做到同区域连续使用，切勿乱序使用。&lt;/br&gt;
+需要运算的以偶数开头，用浮点数运算，这样既能提高运算精度，又能避免地址冲突和叠加。&lt;/br&gt;
+因为整数、双整数的除法运算存在余数问题，需要占用额外的寄存器存放余数，使用浮点运算就能避免这个问题。&lt;/br&gt;
+在多轴控制系统中，建议每轴的运算存储寄存器也要区别开。&lt;/br&gt;
+在写程序时先规划地址，再写程序。并为地址写好注释。&lt;/br&gt;
+程序符号命名规则如下表。&lt;/br&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;规则&lt;/th&gt;
+          &lt;th&gt;举例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;手自动切换&lt;/td&gt;
+          &lt;td&gt;*_ha&lt;/td&gt;
+          &lt;td&gt;b1_ha&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;手动启停&lt;/td&gt;
+          &lt;td&gt;*_on_off&lt;/td&gt;
+          &lt;td&gt;b1_on_off&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;报警&lt;/td&gt;
+          &lt;td&gt;alert_ *&lt;/td&gt;
+          &lt;td&gt;alert_dyw&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;警告&lt;/td&gt;
+          &lt;td&gt;warn_ *&lt;/td&gt;
+          &lt;td&gt;warn_dyw&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;真实值&lt;/td&gt;
+          &lt;td&gt;real_*&lt;/td&gt;
+          &lt;td&gt;real_yw&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;原始值&lt;/td&gt;
+          &lt;td&gt;ori_*&lt;/td&gt;
+          &lt;td&gt;ori_yw&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;上限&lt;/td&gt;
+          &lt;td&gt;*_upper&lt;/td&gt;
+          &lt;td&gt;yw_upper&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;下限&lt;/td&gt;
+          &lt;td&gt;*_lower&lt;/td&gt;
+          &lt;td&gt;yw_lower&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;某和&lt;/td&gt;
+          &lt;td&gt;sum_*&lt;/td&gt;
+          &lt;td&gt;sum_yw&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;开始时&lt;/td&gt;
+          &lt;td&gt;*_start_hour&lt;/td&gt;
+          &lt;td&gt;b1_start_hour&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;开始分&lt;/td&gt;
+          &lt;td&gt;*_start_mui&lt;/td&gt;
+          &lt;td&gt;b1_start_mui&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;结束时&lt;/td&gt;
+          &lt;td&gt;*_stop_hour&lt;/td&gt;
+          &lt;td&gt;b1_stop_hour&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;结束分&lt;/td&gt;
+          &lt;td&gt;*_stop_mui&lt;/td&gt;
+          &lt;td&gt;b1_stop_mui&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;运行时间&lt;/td&gt;
+          &lt;td&gt;*_run_time&lt;/td&gt;
+          &lt;td&gt;b1_run_time&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;间隔时间&lt;/td&gt;
+          &lt;td&gt;*_spac_time&lt;/td&gt;
+          &lt;td&gt;b1_spac_time&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;标志位&lt;/td&gt;
+          &lt;td&gt;*_flag&lt;/td&gt;
+          &lt;td&gt;b1_on_flag&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;模式&lt;/td&gt;
+          &lt;td&gt;*_mode&lt;/td&gt;
+          &lt;td&gt;b1_mode&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;临时值&lt;/td&gt;
+          &lt;td&gt;temp_*&lt;/td&gt;
+          &lt;td&gt;temp_yw&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;从站号&lt;/td&gt;
+          &lt;td&gt;slave_*&lt;/td&gt;
+          &lt;td&gt;slave_b1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;类型选择&lt;/td&gt;
+          &lt;td&gt;*_type&lt;/td&gt;
+          &lt;td&gt;b1_type&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;选用&lt;/td&gt;
+          &lt;td&gt;select_*&lt;/td&gt;
+          &lt;td&gt;select_b1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;设置值&lt;/td&gt;
+          &lt;td&gt;Set*&lt;/td&gt;
+          &lt;td&gt;SetYear&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;读写地址&lt;/td&gt;
+          &lt;td&gt;*_addr&lt;/td&gt;
+          &lt;td&gt;b1_addr&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;状态记录&lt;/td&gt;
+          &lt;td&gt;*_status&lt;/td&gt;
+          &lt;td&gt;b1_status&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;周期&lt;/td&gt;
+          &lt;td&gt;*_cycle&lt;/td&gt;
+          &lt;td&gt;b1_cycle&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;清除&lt;/td&gt;
+          &lt;td&gt;clear_*&lt;/td&gt;
+          &lt;td&gt;clear_yw&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;平均值&lt;/td&gt;
+          &lt;td&gt;avg_*&lt;/td&gt;
+          &lt;td&gt;avg_yw&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;错误&lt;/td&gt;
+          &lt;td&gt;*_err&lt;/td&gt;
+          &lt;td&gt;b1_err&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;内存规划就象仓库划分区域一样，不同的区域存放不同的数据，不同的用途，划分不同的区域，做到有迹可循。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;3-参数计算部分编程&#34;&gt;3. 参数计算部分编程
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;先乘后除，提高计算精度。&lt;/br&gt;
+建议所有的数据运算全部使用浮点运算，这样触摸屏上的参数显示和设置用统一的格式32位浮点数。&lt;/br&gt;
+触摸屏上的显示参数控件和设置参数控件用颜色加以区分，这样不会误导操作人员，也会避免不必要的麻烦。&lt;/br&gt;
+例如灰底黑框为显示控件，白底黑框为输入控件。&lt;/br&gt;
+做四则运算的时候，先乘后除，提高计算精度。运算公式，先进行精简，精简之后再拿到PLC里面做程序。&lt;/br&gt;
+减少除法，对于比较简单的除法，可以用乘以倒数的形式。比如除以a/2，可以写成a*0.5。&lt;/br&gt;
+对于复杂的运算公式，鉴于PLC的梯形图实现起来不直观，可以放到触摸屏脚本里面实现，计算完成之后，把结果再回传到PLC里面。&lt;/br&gt;
+PLC程序里面先进行数据运算，运算完成之后，再拿运算结果进行比较，或者执行其它的动作输出。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;4-动作执行程序编程&#34;&gt;4. 动作执行程序编程
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;h4 id=&#34;安全互锁保护&#34;&gt;安全、互锁、保护
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;编写紧急停止、停止、限位部分的程序，防止调试的时候，设备不能停下来，或者造成机械设备的损坏。&lt;/br&gt;
+首先要保证安全，想停止的时候，能停下来，其次才能进行其他部分程序的编写，一套没有安全保护机制的程序不是完善、完整的程序。&lt;/br&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;进行手动部分程序的编写，方便机械部分调试的顺利进行。对于正反转的控制，不仅外部接线要进行电气的互锁，而且程序里面也要加上互锁部分。
+对于SET置位指令，要考虑是否用了锁存寄存器（断电保持型），在上电初始化的时候是否加上复位RST，以防设备突然启动，或者动作不按照预定动作执行。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;对于高速脉冲输出指令等使用，要先进行脉冲频率、脉冲数量、加减速时间等参数的赋值，然后再启动高速脉冲指令。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;进行自动部分程序的编写，当手动部分的程序编写完善之后，自动部分的程序可谓是水到渠成。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;5-整体程序优化减轻plc运行负荷精简程序&#34;&gt;5. 整体程序优化减轻PLC运行负荷，精简程序
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;PLC扫描周期的时间长短，对程序能否顺畅执行，起着至关重要的作用，在输出响应要求高的场合更能体现出来。&lt;/br&gt;
+总体来说PLC程序步骤越多，PLC的扫描周期时间越长，因此就需要把整个程序进行优化。&lt;/br&gt;
+把程序按功能逻辑优化成若干个子程序，基本数据的运算，手动部分的操作，配方的上传下载，在执行自动程序的时候，以上程序并不是必须要执行的，因此可以把他们切除掉。&lt;/br&gt;
+特别说明&lt;/br&gt;
+指令的扫描时间和指令的执行时间不是一个概念，只要指令在主程序里面，PLC都会去扫描他们，具体执行与否是要看指令前面是否导通、使能。&lt;/br&gt;
+譬如，当M8.0导通的时候，PLC会执行后面的四条浮点除法运算指令。当M8.0不导通的时候，PLC则不会执行后面的指令，但还是会去扫描他们，并不会跳转下去执行别的指令，当程序里面这种状况多的时候，还是会延长扫描周期的时间。&lt;/br&gt;
+所以，整个程序就有了化繁为简的优化空间。&lt;/br&gt;
+初始化的参数，因为只执行一次，所以放在一个子程序里面，用作上电初始化。&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

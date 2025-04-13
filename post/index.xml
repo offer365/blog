@@ -7,7 +7,720 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://offer365.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 18:25:18 +0800</lastBuildDate><atom:link href="https://offer365.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Todo</title>
+        <link>https://offer365.github.io/blog/p/todo/</link>
+        <pubDate>Sun, 13 Apr 2025 18:25:18 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/todo/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; gliNET ATX1800文档&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; linux 工控机文档&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; mcgs 计算一段时间的温度波动性&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; mcgs 分期付款&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; mcgs http 驱动&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 单片机 资料&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 单片机 定时器&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 单片机 消抖&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; golang 串口&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 吉时利2000数字表资料用法&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; mcgs 计时器循环&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 模拟量转换&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 好的视频链接&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 有趣的东西&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>一些设备的PDF文档</title>
+        <link>https://offer365.github.io/blog/p/device-pdf/</link>
+        <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/device-pdf/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;雷达液位计协议&#34;&gt;雷达液位计协议
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;ldywjtxxy.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;静压式液位计&#34;&gt;静压式液位计
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;jyywjsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;超声波流量计说明书&#34;&gt;超声波流量计说明书
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;csblljsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;新道次隔膜泵说明书&#34;&gt;新道次隔膜泵说明书
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;xdcgmbsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;新道次隔膜泵通讯协议&#34;&gt;新道次隔膜泵通讯协议
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;xdcgmbtxxy.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;变频泵变频器说明书&#34;&gt;变频泵变频器说明书
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;HS710.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;abb变频器-acs510说明书&#34;&gt;ABB变频器 ACS510说明书
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;vfd-abb-acs510-manual.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>PID整定</title>
+        <link>https://offer365.github.io/blog/p/industrial-control-pid/</link>
+        <pubDate>Sun, 13 Apr 2025 17:19:11 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/industrial-control-pid/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/p/industrial-control-pid/pid.jpg" alt="Featured image of post PID整定" /&gt;&lt;h2 id=&#34;pid&#34;&gt;PID
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;PID控制器是工业过程控制中广泛采用的一种控制器，其中，P、I、D分别为比例（Proportion）、积分（Integral）、微分（Differential）的简写；&lt;/br&gt;
+将偏差的比例、积分和微分通过线性组合构成控制量，用该控制量对受控对象进行控制，称为PID算法。&lt;/br&gt;
+其中KP、KI、KD分别为比例系数、积分系数、微分系数。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;简介&#34;&gt;简介
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;P表示正比例项。比例控制器的输出u(t)与输入偏差e(t)成正比，能迅速反映偏差，从而减小偏差，但不能消除稳态误差。&lt;/br&gt;
+稳态误差是指系统控制过程趋于稳定时，给定值与输出量的实测值之差。&lt;/br&gt;
+偏差存在，才能使控制器维持一定的控制量输出，因此比例控制器必然存在着稳态误差。&lt;/br&gt;
+由偏差理论知，增大比例虽然可以减小偏差，但不能彻底消除偏差。比例控制作用的大小除与偏差e(t)有关之外，还取决于比例系数Kp的大小。&lt;/br&gt;
+比例系数Kp越小，控制作用越小，系统响应越慢；反之，比例系数Kp越大，控制作用也越强，则系统响应越快。&lt;/br&gt;
+但是，Kp过大会使系统产生较大的超调和振荡，导致系统的稳定性能变差。&lt;/br&gt;
+P=Kp*△ △表示目标值与当前值的误差。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I表示积分项
+积分作用的强弱，取决于积分时间常数Ti，Ti越大积分作用越弱，反之则越强。&lt;/br&gt;
+积分控制作用的存在与偏差e(t)的存在时间有关，只要系统存在着偏差，积分环节就会不断起作用。&lt;/br&gt;
+在积分时间足够的情况下，可以完全消除稳态误差，这时积分控制作用将维持不变。Ti越小，积分速度越快，积分作用越强。&lt;/br&gt;
+积分作用太强会使系统超调加大，甚至使系统出现振荡。&lt;/br&gt;
+I=Ki*(△0+△1+△2+△3&amp;hellip;.)&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;D表示微项分，表示误差的变化速率。通过微分可解决震荡问题。&lt;/br&gt;
+微分环节有助于系统减小超调，克服振荡，加快系统的响应速度，减小调节时间，从而改善了系统的动态性能，但微分时间常数过大，会使系统出现不稳定。&lt;/br&gt;
+微分作用不能消除稳态误差，单独使用意义不大，一般需要与比例、积分控制作用配合使用，构成PD或PID控制。&lt;/br&gt;
+D=Kd*((△2-△1)/dt) dt表示检测时间的间隔。比如每秒检测一次，(△2-△1)表示上一次检测的误差与本次检测误差的差值。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于PID控制，在控制偏差输入为阶跃信号时，立即产生比例和微分控制中作用。&lt;/br&gt;
+由于在偏差输入的瞬时，变化率非常大，微分控制作用很强，此后微分控制作用迅速衰减，但积分作用越来越大，直至最终消除稳态误差。&lt;/br&gt;
+PID控制综合了比例、积分、微分3种作用，既能加快系统响应速度、减小振荡、克服超调，亦能有效消除稳态误差，系统的静态和动态品质得到很大改善，&lt;/br&gt;
+因而PID控制器在工业控制中得到了最为广泛的应用。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;手动调节pid&#34;&gt;手动调节PID
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;先调Kp,Ki=0,Kd=0。始终无法到达设定值再加上Ki。当在设定值上下震荡时，再调Kd。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;口诀&#34;&gt;口诀
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;参数整定找最佳,从小到大顺序查,&lt;/br&gt;
+先是比例后积分,最后再把微分加,&lt;/br&gt;
+曲线振荡很频繁,比例度盘要放大,&lt;/br&gt;
+曲线漂浮绕大湾,比例度盘往小扳, &lt;/br&gt;
+曲线偏离回复慢,积分时间往下降,&lt;/br&gt;
+曲线波动周期长,积分时间再加长, &lt;/br&gt;
+曲线振荡频率快,先把微分降下来,&lt;/br&gt;
+动差大来波动慢,微分时间应加长, &lt;/br&gt;
+理想曲线两个波,前高后低4比1。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;调整方式&lt;/th&gt;
+          &lt;th&gt;上升时间&lt;/th&gt;
+          &lt;th&gt;超调量&lt;/th&gt;
+          &lt;th&gt;安定时间&lt;/th&gt;
+          &lt;th&gt;稳态误差&lt;/th&gt;
+          &lt;th&gt;稳定性&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;↑Kp&lt;/td&gt;
+          &lt;td&gt;↓减小&lt;/td&gt;
+          &lt;td&gt;↑增加&lt;/td&gt;
+          &lt;td&gt;↑小幅增加&lt;/td&gt;
+          &lt;td&gt;↓减少&lt;/td&gt;
+          &lt;td&gt;↓变差&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;↑Ki&lt;/td&gt;
+          &lt;td&gt;↓小幅减小&lt;/td&gt;
+          &lt;td&gt;↑增加&lt;/td&gt;
+          &lt;td&gt;↑增加&lt;/td&gt;
+          &lt;td&gt;↓↓大幅减少&lt;/td&gt;
+          &lt;td&gt;↓变差&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;↑Kd&lt;/td&gt;
+          &lt;td&gt;↓小幅减小&lt;/td&gt;
+          &lt;td&gt;↓减小&lt;/td&gt;
+          &lt;td&gt;↓减小&lt;/td&gt;
+          &lt;td&gt;→变化不大&lt;/td&gt;
+          &lt;td&gt;↑变好&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;总结&#34;&gt;总结
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;通俗的讲，Kp比例条件相当于粗调，积分Ki是精调，把积分时间调到很大（10万），此时积分调节不再起作用。&lt;/br&gt;
+当比例调节完成后。把比例调节为之前的80%， 然后有大到小调节积分时间。&lt;/br&gt;
+微分的作用属于超前调节，预测误差变化趋势，提前抑制误差。&lt;/br&gt;
+微分控制的重点不在于实际测量值的具体数值，而在其变化的方向和速度。&lt;/br&gt;
+但局限性，如果测量信号不是很“干净”，存在毛刺干扰，会产生很多不必要甚至错误的控制信号，慎用微分。
+但可以改善系统的响应速度和稳定性，对具有滞后性的被控对象，应加入微分环节。 &lt;/br&gt;
+微分时间越大，作用越强。为0时，作用为0&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Report</title>
+        <link>https://offer365.github.io/blog/p/mcgs-report/</link>
+        <pubDate>Sun, 13 Apr 2025 16:52:41 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/mcgs-report/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post Report" /&gt;&lt;h2 id=&#34;报表应用&#34;&gt;报表应用
+&lt;/h2&gt;&lt;p&gt;报表中数据源，首记录值和末记录值，并非指组对象中某一列数据的第一次记录值和最后一次的记录值。而是指当前排序方式下,第一行和最后一行数据。&lt;/br&gt;
+把问题想的太复杂了，又踩坑了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>任意修改存储频率</title>
+        <link>https://offer365.github.io/blog/p/mcgs-cycle-store/</link>
+        <pubDate>Sun, 13 Apr 2025 16:51:33 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/mcgs-cycle-store/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post 任意修改存储频率" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;在调试时，某参数需要以较快的是速度显示在曲线上。在调试完成后，该参数需要以一定的时间存储。&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;让客户自己决定某一组数据的存储频率。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;现状&#34;&gt;现状
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;通常我们通过设置组对象的存盘属性，定时存储到磁盘或内存，存储周期设置为N*0.1秒。&lt;/br&gt;
+但这种方法无法做到任意修改存储频率。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;解决方法&#34;&gt;解决方法
+&lt;/h2&gt;&lt;h3 id=&#34;思路&#34;&gt;思路
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;通过 &amp;ldquo;计时器函数&amp;quot;和&amp;quot;循环策略&amp;quot;解决。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;具体步骤&#34;&gt;具体步骤
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在实时数据库中，添加一个变量&lt;code&gt;数据统计频率&lt;/code&gt;，&amp;ldquo;对象类型&amp;quot;为整数。&amp;ldquo;基本属性&amp;rdquo;→&amp;ldquo;对象初值&amp;rdquo; 为&lt;code&gt;120&lt;/code&gt;。勾选 &amp;ldquo;变化时自动保存初值&amp;rdquo;。表示数据的统计频率。默认为120秒。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在实时数据库中，新建一个组对象&lt;code&gt;组对象A&lt;/code&gt;， 设置&amp;quot;属性&amp;rdquo;→&amp;ldquo;存盘属性&amp;rdquo;→&amp;ldquo;存盘方式&amp;rdquo;→&amp;ldquo;勾选定时存储到磁盘&amp;rdquo;；&amp;ldquo;存盘参数&amp;rdquo;→&amp;ldquo;存储周期&amp;quot;为：&lt;code&gt;0&lt;/code&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!TIP]
+存储周期必须为0。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在&amp;quot;启动策略&amp;quot;中,运行一个计时器，并设置计时器最大值，和运行模式为0（运行到上限值后重新循环运行）。如下所示代码&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!TimerRun&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;127&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!TimerSetLimit&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;127,数据统计频率,0&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新建一个&amp;quot;循环策略&amp;rdquo;，&amp;ldquo;策略属性&amp;rdquo;→&amp;ldquo;勾选定时循环执行&amp;rdquo;，时间为&lt;code&gt;1000&lt;/code&gt;ms。在此策略上新增一个&amp;quot;策略行&amp;rdquo;。
+&amp;ldquo;表达式条件&amp;rdquo;→&amp;ldquo;策略行条件属性&amp;rdquo;→&amp;ldquo;表达式&amp;rdquo; 为：&lt;code&gt; !TimerValue(127)&lt;/code&gt;。
+&amp;ldquo;条件设置&amp;rdquo;→勾选 &amp;ldquo;为0时条件成立&amp;rdquo;。
+&amp;ldquo;脚本程序&amp;quot;为&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!SaveData&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;数据对象.组对象A&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增一个&amp;quot;用户窗口&amp;rdquo;，添加一个&amp;quot;输入框&amp;quot;，&amp;ldquo;操作属性&amp;quot;为 &lt;code&gt;数据统计频率&lt;/code&gt;。
+添加一个&amp;quot;标准按钮&amp;rdquo;，&amp;ldquo;基本属性&amp;rdquo;→&amp;ldquo;文本&amp;quot;内容为：&lt;code&gt;保存&lt;/code&gt;，脚本程序为：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;数据统计频率.SaveDataInitValue&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!TimerSetLimit&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;127,数据统计频率,0&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;输入一个大于0的整数。点击&amp;quot;保存按钮&amp;rdquo;。就可以任意更改组对象的保存时间。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>统计运行时间</title>
+        <link>https://offer365.github.io/blog/p/mcgs-runtime-script/</link>
+        <pubDate>Sun, 13 Apr 2025 16:51:02 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/mcgs-runtime-script/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post 统计运行时间" /&gt;&lt;h2 id=&#34;一个统计hmi运行时间的脚本&#34;&gt;一个统计HMI运行时间的脚本
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;统计HMI本次开机运行时间和累计运行时间&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在实时数据库新建变量：&lt;code&gt;run_day&lt;/code&gt;,&lt;code&gt;run_hour&lt;/code&gt;,&lt;code&gt;run_minute&lt;/code&gt;,&lt;code&gt;run_second&lt;/code&gt;分别表示运行的天，时，分，秒数。对象类型为整数。&lt;/li&gt;
+&lt;li&gt;在实时数据库新建变量：&lt;code&gt;span_day&lt;/code&gt;,&lt;code&gt;span_hour&lt;/code&gt;,&lt;code&gt;span_minute&lt;/code&gt;,&lt;code&gt;span_second&lt;/code&gt;,分别表示累计运行的天，时，分，秒数。 对象类型为整数。&lt;/li&gt;
+&lt;li&gt;在实时数据库新建变量：&lt;code&gt;DeviceOnlineTime&lt;/code&gt;表示设备的上线时间。对象类型为整数。对象初值为 &lt;code&gt;2021-10-01 11:00:00&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;新建一个循环策略，每秒运行一次。脚本内容如下。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DIM temp1 AS INTEGER
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DIM temp2 AS INTEGER
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DIM span_time AS INTEGER
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;run_day&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$RunTime&lt;/span&gt;/86400
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;temp1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$RunTime&lt;/span&gt; MOD &lt;span class=&#34;m&#34;&gt;86400&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;run_hour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;temp1/3600
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;temp2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;temp1 MOD &lt;span class=&#34;m&#34;&gt;3600&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;run_minute&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;temp2/60
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;run_second&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;temp2 MOD &lt;span class=&#34;m&#34;&gt;60&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;span_time&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;!TimeGetSpan&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;!TimeGetCurrentTime&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,!TimeStr2I&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;DeviceOnlineTime.Value&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;span_day&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;span_time/86400
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;span_hour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;!TimeSpanGetHours&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;span_time&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;span_minute&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;!TimeSpanGetMinutes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;span_time&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;span_second&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;!TimeSpanGetSeconds&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;span_time&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>构件的事件</title>
+        <link>https://offer365.github.io/blog/p/mcgs-component-event/</link>
+        <pubDate>Sun, 13 Apr 2025 16:50:44 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/mcgs-component-event/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post 构件的事件" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;在组态时，同样的功能我们可以用更少的控件来实现。这样节省窗口空间。&lt;/br&gt;&lt;/li&gt;
+&lt;li&gt;我们希望一个按钮即可以有丰富的动画来显示当前的状态，又可以通过点击来切换状态。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;现状&#34;&gt;现状
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;通常要实现上面的需求我们需要一个动画图形，比如圆形，矩形等等，然后配置图形的填充颜色，边线颜色，可见度，闪烁等属性。还有按钮动作。&lt;/br&gt;
+但是图形的按钮动作没有脚本功能，无法实现复杂的逻辑。&lt;/br&gt;
+而按钮虽然有脚本功能，但没有动画属性。&lt;/br&gt;
+下面介绍的这种方法，可以让按钮和动画图形合二为一。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;解决方法&#34;&gt;解决方法
+&lt;/h2&gt;&lt;h3 id=&#34;具体步骤&#34;&gt;具体步骤
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;新建一个&amp;quot;窗口&amp;quot;，从工具箱中选中&amp;quot;椭圆&amp;quot;，并勾勒一个&amp;quot;椭圆&amp;quot;，鼠标选中这个&amp;quot;椭圆&amp;quot;，单击右键，找到&amp;quot;事件&amp;quot;按钮点击。&lt;/li&gt;
+&lt;li&gt;然后选中&amp;quot;Click&amp;quot; 后面按钮，点击,选中&amp;quot;事件连接脚本&amp;quot;点击，就会出现脚本编辑器。然后写入你的脚本就可以了。&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!TIP]
+这个方法知道了就会，不知道有事件功能的也想不到。&lt;/br&gt;
+另外在事件中，也可以更改控件的名称。&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>ModbusRtu</title>
+        <link>https://offer365.github.io/blog/p/mcgs-modbus_rtu/</link>
+        <pubDate>Sun, 13 Apr 2025 16:28:51 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/mcgs-modbus_rtu/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post ModbusRtu" /&gt;&lt;h2 id=&#34;mcgs-与-modbus-rtu通讯&#34;&gt;Mcgs 与 Modbus RTU通讯
+&lt;/h2&gt;&lt;h3 id=&#34;基础知识&#34;&gt;基础知识
+&lt;/h3&gt;&lt;h4 id=&#34;hmi串口引脚定义&#34;&gt;HMI串口引脚定义
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy.jpg&#34;
+	width=&#34;273&#34;
+	height=&#34;101&#34;
+	srcset=&#34;https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy_hu_6261006bfe11d509.jpg 480w, https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy_hu_e4b769d1933caaf9.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;串口引脚定义&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;270&#34;
+		data-flex-basis=&#34;648px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;table&gt;
+   &lt;tr&gt;
+        &lt;td colspan=&#34;1&#34; align=&#34;center&#34;&gt;接口&lt;/td&gt;
+        &lt;td colspan=&#34;1&#34; align=&#34;center&#34;&gt;PIN&lt;/td&gt;
+        &lt;td colspan=&#34;1&#34; align=&#34;center&#34;&gt;引脚定义&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;3&#34;&gt;COM1&lt;/br&gt;(RS232)&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;RS232RXD&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;RS232TXD&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;GND&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;COM2&lt;/br&gt;(RS485)&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;RS485+&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;RS485-&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;COM3&lt;/br&gt;(RS485)&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;RS485+&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;RS485-&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;5&#34;&gt;COM9&lt;/br&gt;(RS422)&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;TXD+&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;TXD-&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;GND&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;RXD+&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;RXD-&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;支持的寄存器及功能码说明如下&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;寄存器&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;读功能码&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;写功能码&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;功能码说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[1区]输入继电器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x02&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;ndash;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0x02: 读取输入状态&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[0区]输出继电器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x01&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x05、0x0F&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0x01: 读取线圈状态&lt;/br&gt;0x05: 强制单个线圈&lt;/br&gt;0x0F: 强制多个线圈&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[3区]输入寄存器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x04&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&amp;ndash;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0x04: 读输入寄存器&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[4区]输出寄存器&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x03&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;0x06、0x10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0x03: 读保持寄存器&lt;/br&gt;0x06: 预置单个寄存器&lt;/br&gt;0x10: 预置多个寄存器&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!ATTENTION]
+添加寄存器通道时，起始地址均为1，这是遵从modbusrtu协议，即所谓的“协议地址”，对于部分寄存器起始地址为0的设备，通道添加时，地址应加1处理&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;plc协议说明&#34;&gt;PLC协议说明
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;离散量输出（线圈）和保持寄存器支持读请求和写请求。离散量输入（触点）和输入寄存器仅支持读请求。&lt;/br&gt;
+参数地址 (Addr) 是起始 Modbus 地址。S7‑200 SMART 支持以下地址范围：&lt;/br&gt;
+对于离散量输出（线圈），为 00001 至 09999&lt;/br&gt;
+对于离散量输入（触点），为 10001 至 19999&lt;/br&gt;
+对于输入寄存器，为 30001 至 39999&lt;/br&gt;
+对于保持寄存器，为 40001 至 49999 和 400001 至 465535&lt;/br&gt;
+Modbus 从站设备支持的地址决定了 Addr 的实际取值范围。&lt;/br&gt;
+参数“计数”(Count) 用于分配要在该请求中读取或写入的数据元素数。&lt;/br&gt;
+对于位数据类型，“Count”是位数，对于字数据类型，则表示字数。&lt;/br&gt;
+对于地址 0xxxx，“计数”(Count) 是要读取或写入的位数&lt;/br&gt;
+对于地址 1xxxx，“计数”(Count) 是要读取的位数&lt;/br&gt;
+对于地址 3xxxx，“计数”(Count) 是要读取的输入寄存器字数&lt;/br&gt;
+对于地址 4xxxx 或 4yyyyy，“计数”(Count) 是要读取或写入的保持寄存器字数&lt;/br&gt;
+MBUS_MSG/MB_MSG2 指令最多读取或写入 120 个字或 1920 个位（240 个字节的数据）。&lt;/br&gt;
+Count 的实际限值取决于 Modbus 从站设备的限制。&lt;/br&gt;
+参数 DataPtr 是间接地址指针，指向 CPU 中与读/写请求相关的数据的 V 存储器。&lt;/br&gt;
+对于读请求，将 DataPtr 设置为用于存储从 Modbus 从站读取的数据的第一个 CPU 存储单元。&lt;/br&gt;
+对于写请求，将 DataPtr 设置为要发送到 Modbus 从站的数据的第一个 CPU 存储单元。&lt;/br&gt;
+程序将 DataPtr 值以间接地址指针的形式传递到 MBUS_MSG/MB_MSG2。&lt;/br&gt;
+例如，如果要写入到 Modbus 从站设备的数据始于 CPU 的地址 VW200，则 DataPtr 的值将为 &amp;amp;VB200（地址 VB200）。指针必须始终是 VB 类型，即使它们指向字数据。&lt;/br&gt;
+保持寄存器（地址 4xxxx 或 4yyyyy）和输入寄存器（地址 3xxxx）是字值（2 个字节或 16 个位）。&lt;/br&gt;
+CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址是寄存器的最高有效字节。编号较大的 V 存储器地址是寄存器的最低有效字节。下表显示了 CPU 字节和字寻址如何与 Modbus 寄存器格式相对应。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;1.通讯参数设置
+“通用串口父设备”通讯参数设置，选择串口端口号，波特率，校验方式等。
+添加子设备，设置设备的从站地址。
+2.添加设备通道&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;设备帮助文档&#34;&gt;设备帮助文档
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;modbusrtuex_str.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Mcgs触摸屏构件</title>
+        <link>https://offer365.github.io/blog/p/mcgs-pro/</link>
+        <pubDate>Sun, 13 Apr 2025 16:06:16 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/mcgs-pro/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post Mcgs触摸屏构件" /&gt;&lt;h2 id=&#34;pro_视频教程_构件函数功能基础视频汇总&#34;&gt;Pro_视频教程_构件函数功能基础视频汇总
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mcgs.lanzoux.com/b01hhakqh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;总链接&lt;/a&gt;&lt;/p&gt;
+&lt;table width=&#34;676&#34; style=&#34;width: 676px;&#34; border=&#34;1&#34; cellspacing=&#34;1&#34; cellpadding=&#34;1&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 60px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;类别&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 149px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;内容&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;552&#34; style=&#34;height: 552px; text-align: center;&#34; rowspan=&#34;23&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;动画构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 149px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;基本图元&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iKOP6e66bjg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iKOP6e66bjg&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;标签构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iSbLEe66ayf&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iSbLEe66ayf&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;位图构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/irD4Ie66a8j&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/irD4Ie66a8j&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+                &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;输入框构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+                &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i0ACZe669za&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i0ACZe669za&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;流动块构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iPlZ3e669hc&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iPlZ3e669hc&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;百分比填充构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/idFGKe6694j&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/idFGKe6694j&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;标准按钮构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iAStGe668sh&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iAStGe668sh&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;动画按钮构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i5kcTe668ba&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i5kcTe668ba&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;滑动输入器构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iF0q6e667ud&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iF0q6e667ud&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;旋转仪表构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i8KCKe666yb&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i8KCKe666yb&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;动画显示构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i1rs3e666jg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i1rs3e666jg&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;实时曲线构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iYhiGe6666d&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iYhiGe6666d&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;历史曲线构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iq9yXe665md&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iq9yXe665md&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;报表构件构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iTs9Pe664za&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iTs9Pe664za&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;b&gt;&lt;font color=&#34;#ff0000&#34;&gt;存盘数据浏览构件&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i56XNe6641g&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i56XNe6641g&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;组合框构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/izVKYe663ba&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/izVKYe663ba&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;GIF构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i3gdBe662ng&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i3gdBe662ng&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;XY曲线构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/ipfQie6623g&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/ipfQie6623g&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;二维码构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/itArFe660md&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/itArFe660md&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;报警条构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i9zZKe660ab&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i9zZKe660ab&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;b&gt;&lt;font color=&#34;#ff0000&#34;&gt;报警浏览构件&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;b&gt;&lt;font color=&#34;#ff0000&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/islSGe65zlg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/islSGe65zlg&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;配方构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i24Sne65xoh&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i24Sne65xoh&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;键盘按钮构件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iZcBLe65wzc&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iZcBLe65wzc&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;264&#34; style=&#34;height: 264px; text-align: center;&#34; rowspan=&#34;11&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;脚本函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 149px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;脚本函数功能介绍&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i9g7Ae694zi&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i9g7Ae694zi&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;系统变量函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iNDCje694ra&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iNDCje694ra&lt;/a&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;数据对象操作函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iE2sFe694dg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iE2sFe694dg&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;字符串操作函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i0ESbe693tg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i0ESbe693tg&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;数学函数功能&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iPLVHe6937e&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iPLVHe6937e&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;时间运算函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/ia7Iye692zg&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/ia7Iye692zg&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;文件操作函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/ilBa0e692qh&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/ilBa0e692qh&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;b&gt;&lt;font color=&#34;#ff0000&#34;&gt;用户权限函数&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;b&gt;&lt;font color=&#34;#ff0000&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iP5dHe692cd&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iP5dHe692cd&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;计时器函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i0129e68zyh&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i0129e68zyh&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;内存操作函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/iHWZVe68yah&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/iHWZVe68yah&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;运行环境操作函数&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/il43Ee68x3e&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/il43Ee68x3e&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;144&#34; style=&#34;height: 144px; text-align: center;&#34; rowspan=&#34;6&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;专项功能&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 149px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;报警配置功能示例&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/ij2bxe697ab&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/ij2bxe697ab&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;b&gt;&lt;font color=&#34;#ff0000&#34;&gt;多语言功能示例&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;b&gt;&lt;font color=&#34;#ff0000&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i93lVe6971c&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i93lVe6971c&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;配方功能示例&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/idwWFe696pa&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/idwWFe696pa&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;安全机制功能示例&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/izr6Ae6964j&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/izr6Ae6964j&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;运行期限功能示例&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/igHJAe695yd&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/igHJAe695yd&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;设备驱动功能示例&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 467px;&#34;&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;链接：&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color: rgb(0, 0, 255);&#34;&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/i9Kfxe695pe&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/i9Kfxe695pe&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td rowspan=&#34;12&#34; style=&#34;text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 11px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;Modbus&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 11px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;嵌_ModbusTCP&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;span style=&#34;font-size: 11px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;font-size: 12px;&#34;&gt;链接：&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/ij8fye85d5a&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/ij8fye85d5a&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr height=&#34;24&#34;&gt;
+            &lt;td height=&#34;24&#34; style=&#34;width: 149px; height: 24px; text-align: center;&#34;&gt;&lt;span style=&#34;font-size: 11px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;嵌_ModbusRTU&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;span style=&#34;font-size: 11px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;font-size: 12px;&#34;&gt;链接：&lt;/span&gt;&lt;span style=&#34;font-size: 14px;&#34;&gt;&lt;span style=&#34;font-family: 微软雅黑;&#34;&gt;&lt;a href=&#34;https://mcgs.lanzoux.com/isgFre85d3i&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;https://mcgs.lanzoux.com/isgFre85d3i&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
         <title>Chinese Test</title>
         <link>https://offer365.github.io/blog/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -322,28 +1035,6 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>مثال نص</title>
-        <link>https://offer365.github.io/blog/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://offer365.github.io/blog/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post مثال نص" /&gt;&lt;h2 id=&#34;فقرة-1&#34;&gt;فقرة 1
-&lt;/h2&gt;&lt;p&gt;هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من &lt;a class=&#34;link&#34; href=&#34;https://colorslab.com/textgator/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;مولد النص العربى&lt;/a&gt;، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
-ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
-هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.&lt;/p&gt;
-&lt;h2 id=&#34;فقرة-2&#34;&gt;فقرة 2
-&lt;/h2&gt;&lt;p&gt;هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من &lt;a class=&#34;link&#34; href=&#34;https://colorslab.com/textgator/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;مولد النص العربى&lt;/a&gt;، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
-ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
-هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.&lt;/p&gt;
-&lt;h2 id=&#34;تجربة-rtl&#34;&gt;تجربة RTL
-&lt;/h2&gt;&lt;p&gt;كلمة 1 Text كلمة 2&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>Math Typesetting</title>

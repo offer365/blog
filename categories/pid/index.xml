@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>PID on 涛哥的Blog</title>
+        <link>https://offer365.github.io/blog/categories/pid/</link>
+        <description>Recent content in PID on 涛哥的Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Sun, 13 Apr 2025 17:19:11 +0800</lastBuildDate><atom:link href="https://offer365.github.io/blog/categories/pid/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>PID整定</title>
+        <link>https://offer365.github.io/blog/p/industrial-control-pid/</link>
+        <pubDate>Sun, 13 Apr 2025 17:19:11 +0800</pubDate>
+        
+        <guid>https://offer365.github.io/blog/p/industrial-control-pid/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/p/industrial-control-pid/pid.jpg" alt="Featured image of post PID整定" /&gt;&lt;h2 id=&#34;pid&#34;&gt;PID
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;PID控制器是工业过程控制中广泛采用的一种控制器，其中，P、I、D分别为比例（Proportion）、积分（Integral）、微分（Differential）的简写；&lt;/br&gt;
+将偏差的比例、积分和微分通过线性组合构成控制量，用该控制量对受控对象进行控制，称为PID算法。&lt;/br&gt;
+其中KP、KI、KD分别为比例系数、积分系数、微分系数。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;简介&#34;&gt;简介
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;P表示正比例项。比例控制器的输出u(t)与输入偏差e(t)成正比，能迅速反映偏差，从而减小偏差，但不能消除稳态误差。&lt;/br&gt;
+稳态误差是指系统控制过程趋于稳定时，给定值与输出量的实测值之差。&lt;/br&gt;
+偏差存在，才能使控制器维持一定的控制量输出，因此比例控制器必然存在着稳态误差。&lt;/br&gt;
+由偏差理论知，增大比例虽然可以减小偏差，但不能彻底消除偏差。比例控制作用的大小除与偏差e(t)有关之外，还取决于比例系数Kp的大小。&lt;/br&gt;
+比例系数Kp越小，控制作用越小，系统响应越慢；反之，比例系数Kp越大，控制作用也越强，则系统响应越快。&lt;/br&gt;
+但是，Kp过大会使系统产生较大的超调和振荡，导致系统的稳定性能变差。&lt;/br&gt;
+P=Kp*△ △表示目标值与当前值的误差。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I表示积分项
+积分作用的强弱，取决于积分时间常数Ti，Ti越大积分作用越弱，反之则越强。&lt;/br&gt;
+积分控制作用的存在与偏差e(t)的存在时间有关，只要系统存在着偏差，积分环节就会不断起作用。&lt;/br&gt;
+在积分时间足够的情况下，可以完全消除稳态误差，这时积分控制作用将维持不变。Ti越小，积分速度越快，积分作用越强。&lt;/br&gt;
+积分作用太强会使系统超调加大，甚至使系统出现振荡。&lt;/br&gt;
+I=Ki*(△0+△1+△2+△3&amp;hellip;.)&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;D表示微项分，表示误差的变化速率。通过微分可解决震荡问题。&lt;/br&gt;
+微分环节有助于系统减小超调，克服振荡，加快系统的响应速度，减小调节时间，从而改善了系统的动态性能，但微分时间常数过大，会使系统出现不稳定。&lt;/br&gt;
+微分作用不能消除稳态误差，单独使用意义不大，一般需要与比例、积分控制作用配合使用，构成PD或PID控制。&lt;/br&gt;
+D=Kd*((△2-△1)/dt) dt表示检测时间的间隔。比如每秒检测一次，(△2-△1)表示上一次检测的误差与本次检测误差的差值。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于PID控制，在控制偏差输入为阶跃信号时，立即产生比例和微分控制中作用。&lt;/br&gt;
+由于在偏差输入的瞬时，变化率非常大，微分控制作用很强，此后微分控制作用迅速衰减，但积分作用越来越大，直至最终消除稳态误差。&lt;/br&gt;
+PID控制综合了比例、积分、微分3种作用，既能加快系统响应速度、减小振荡、克服超调，亦能有效消除稳态误差，系统的静态和动态品质得到很大改善，&lt;/br&gt;
+因而PID控制器在工业控制中得到了最为广泛的应用。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;手动调节pid&#34;&gt;手动调节PID
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;先调Kp,Ki=0,Kd=0。始终无法到达设定值再加上Ki。当在设定值上下震荡时，再调Kd。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;口诀&#34;&gt;口诀
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;参数整定找最佳,从小到大顺序查,&lt;/br&gt;
+先是比例后积分,最后再把微分加,&lt;/br&gt;
+曲线振荡很频繁,比例度盘要放大,&lt;/br&gt;
+曲线漂浮绕大湾,比例度盘往小扳, &lt;/br&gt;
+曲线偏离回复慢,积分时间往下降,&lt;/br&gt;
+曲线波动周期长,积分时间再加长, &lt;/br&gt;
+曲线振荡频率快,先把微分降下来,&lt;/br&gt;
+动差大来波动慢,微分时间应加长, &lt;/br&gt;
+理想曲线两个波,前高后低4比1。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;调整方式&lt;/th&gt;
+          &lt;th&gt;上升时间&lt;/th&gt;
+          &lt;th&gt;超调量&lt;/th&gt;
+          &lt;th&gt;安定时间&lt;/th&gt;
+          &lt;th&gt;稳态误差&lt;/th&gt;
+          &lt;th&gt;稳定性&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;↑Kp&lt;/td&gt;
+          &lt;td&gt;↓减小&lt;/td&gt;
+          &lt;td&gt;↑增加&lt;/td&gt;
+          &lt;td&gt;↑小幅增加&lt;/td&gt;
+          &lt;td&gt;↓减少&lt;/td&gt;
+          &lt;td&gt;↓变差&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;↑Ki&lt;/td&gt;
+          &lt;td&gt;↓小幅减小&lt;/td&gt;
+          &lt;td&gt;↑增加&lt;/td&gt;
+          &lt;td&gt;↑增加&lt;/td&gt;
+          &lt;td&gt;↓↓大幅减少&lt;/td&gt;
+          &lt;td&gt;↓变差&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;↑Kd&lt;/td&gt;
+          &lt;td&gt;↓小幅减小&lt;/td&gt;
+          &lt;td&gt;↓减小&lt;/td&gt;
+          &lt;td&gt;↓减小&lt;/td&gt;
+          &lt;td&gt;→变化不大&lt;/td&gt;
+          &lt;td&gt;↑变好&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;总结&#34;&gt;总结
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;通俗的讲，Kp比例条件相当于粗调，积分Ki是精调，把积分时间调到很大（10万），此时积分调节不再起作用。&lt;/br&gt;
+当比例调节完成后。把比例调节为之前的80%， 然后有大到小调节积分时间。&lt;/br&gt;
+微分的作用属于超前调节，预测误差变化趋势，提前抑制误差。&lt;/br&gt;
+微分控制的重点不在于实际测量值的具体数值，而在其变化的方向和速度。&lt;/br&gt;
+但局限性，如果测量信号不是很“干净”，存在毛刺干扰，会产生很多不必要甚至错误的控制信号，慎用微分。
+但可以改善系统的响应速度和稳定性，对具有滞后性的被控对象，应加入微分环节。 &lt;/br&gt;
+微分时间越大，作用越强。为0时，作用为0&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
