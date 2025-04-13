@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>西门子 on 涛哥的Blog</title>
-        <link>http://localhost:1313/blog/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</link>
+        <link>https://offer365.github.io/blog/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</link>
         <description>Recent content in 西门子 on 涛哥的Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 17:32:47 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 17:32:47 +0800</lastBuildDate><atom:link href="https://offer365.github.io/blog/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>西门子S7-200(Smart)</title>
-        <link>http://localhost:1313/blog/p/plc-siemens-s7_200/</link>
+        <link>https://offer365.github.io/blog/p/plc-siemens-s7_200/</link>
         <pubDate>Sun, 13 Apr 2025 17:32:47 +0800</pubDate>
         
-        <guid>http://localhost:1313/blog/p/plc-siemens-s7_200/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/plc-siemens-s7_200/S7-200%20SMART.png" alt="Featured image of post 西门子S7-200(Smart)" /&gt;&lt;h2 id=&#34;编程经验&#34;&gt;编程经验
+        <guid>https://offer365.github.io/blog/p/plc-siemens-s7_200/</guid>
+        <description>&lt;img src="https://offer365.github.io/blog/p/plc-siemens-s7_200/S7-200%20SMART.png" alt="Featured image of post 西门子S7-200(Smart)" /&gt;&lt;h2 id=&#34;编程经验&#34;&gt;编程经验
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;自加或自减前面要有沿信号。&lt;/li&gt;
