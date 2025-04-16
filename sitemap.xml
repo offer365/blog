@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://offer365.github.io/blog/zh-cn/sitemap.xml</loc>
+    <loc>%2A/zh-cn/sitemap.xml</loc>
     
       <lastmod>2025-04-13T18:25:18+08:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://offer365.github.io/blog/en/sitemap.xml</loc>
+    <loc>%2A/en/sitemap.xml</loc>
     
   </sitemap>
   

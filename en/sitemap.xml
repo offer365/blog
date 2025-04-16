@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://offer365.github.io/blog/en/categories/</loc>
+    <loc>%2A/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://offer365.github.io/blog/categories/"
+                href="%2A/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://offer365.github.io/blog/en/categories/"
+                href="%2A/en/categories/"
                 />
   </url><url>
-    <loc>https://offer365.github.io/blog/en/</loc>
+    <loc>%2A/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://offer365.github.io/blog/"
+                href="%2A/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://offer365.github.io/blog/en/"
+                href="%2A/en/"
                 />
   </url><url>
-    <loc>https://offer365.github.io/blog/en/tags/</loc>
+    <loc>%2A/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://offer365.github.io/blog/tags/"
+                href="%2A/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://offer365.github.io/blog/en/tags/"
+                href="%2A/en/tags/"
                 />
   </url>
 </urlset>

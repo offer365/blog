@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ABB on 涛哥的Blog</title>
-        <link>http://localhost:1313/blog/categories/abb/</link>
+        <link>//localhost:1313/categories/abb/</link>
         <description>Recent content in ABB on 涛哥的Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 17:46:20 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/abb/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 17:46:20 +0800</lastBuildDate><atom:link href="//localhost:1313/categories/abb/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ABB变频器Acs510</title>
-        <link>http://localhost:1313/blog/p/vfd-abb-acs510/</link>
+        <link>//localhost:1313/p/vfd-abb-acs510/</link>
         <pubDate>Sun, 13 Apr 2025 17:46:20 +0800</pubDate>
         
-        <guid>http://localhost:1313/blog/p/vfd-abb-acs510/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/vfd-abb-acs510/abb.jpg" alt="Featured image of post ABB变频器Acs510" /&gt;&lt;h2 id=&#34;abb-acs510-变频器&#34;&gt;ABB ACS510 变频器
+        <guid>//localhost:1313/p/vfd-abb-acs510/</guid>
+        <description>&lt;img src="//localhost:1313/p/vfd-abb-acs510/abb.jpg" alt="Featured image of post ABB变频器Acs510" /&gt;&lt;h2 id=&#34;abb-acs510-变频器&#34;&gt;ABB ACS510 变频器
 &lt;/h2&gt;&lt;h3 id=&#34;485接线&#34;&gt;485接线
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-485-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/vfd-abb-acs510/vfd-abb-acs510-485-1.png&#34;
 	width=&#34;654&#34;
 	height=&#34;208&#34;
-	srcset=&#34;http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-485-1_hu_f0d63ea6b5f26a6a.png 480w, http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-485-1_hu_b1f8cf5893a435d9.png 1024w&#34;
+	srcset=&#34;//localhost:1313/p/vfd-abb-acs510/vfd-abb-acs510-485-1_hu_f0d63ea6b5f26a6a.png 480w, //localhost:1313/p/vfd-abb-acs510/vfd-abb-acs510-485-1_hu_b1f8cf5893a435d9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;变频器485接线&#34;
@@ -267,10 +267,10 @@
 01 03 00 66 00 04 A4 16 &lt;/br&gt;
 变频器的回应：  01  03  04 频率H 频率L 电流H 电流L 转矩H 转矩L 功率H 功率L CRCL CRCH &lt;/br&gt;
 若读回的电流字（电流H 电流L）= 01  A5 则实际电流数值为16#01A5=42.1A。&lt;/br&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-args-set.png&#34;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/vfd-abb-acs510/vfd-abb-acs510-args-set.png&#34;
 	width=&#34;672&#34;
 	height=&#34;475&#34;
-	srcset=&#34;http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-args-set_hu_79e8e4291e8793cc.png 480w, http://localhost:1313/blog/p/vfd-abb-acs510/vfd-abb-acs510-args-set_hu_3d7f493bf735f50f.png 1024w&#34;
+	srcset=&#34;//localhost:1313/p/vfd-abb-acs510/vfd-abb-acs510-args-set_hu_79e8e4291e8793cc.png 480w, //localhost:1313/p/vfd-abb-acs510/vfd-abb-acs510-args-set_hu_3d7f493bf735f50f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;变频器参数设置&#34;

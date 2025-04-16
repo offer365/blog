@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>涛哥的Blog</title>
-        <link>https://offer365.github.io/blog/</link>
+        <link>%2A/</link>
         <description>Recent content on 涛哥的Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 18:25:18 +0800</lastBuildDate><atom:link href="https://offer365.github.io/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 18:25:18 +0800</lastBuildDate><atom:link href="%2A/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Todo</title>
-        <link>https://offer365.github.io/blog/p/todo/</link>
+        <link>%2A/p/todo/</link>
         <pubDate>Sun, 13 Apr 2025 18:25:18 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/todo/</guid>
+        <guid>%2A/p/todo/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; gliNET ATX1800文档&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; linux 工控机文档&lt;/li&gt;
@@ -33,10 +33,10 @@
         </item>
         <item>
         <title>一些设备的PDF文档</title>
-        <link>https://offer365.github.io/blog/p/device-pdf/</link>
+        <link>%2A/p/device-pdf/</link>
         <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/device-pdf/</guid>
+        <guid>%2A/p/device-pdf/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;h3 id=&#34;雷达液位计协议&#34;&gt;雷达液位计协议
@@ -90,11 +90,11 @@
         </item>
         <item>
         <title>西门子S7-200(Smart)</title>
-        <link>https://offer365.github.io/blog/p/plc-siemens-s7_200/</link>
+        <link>%2A/p/plc-siemens-s7_200/</link>
         <pubDate>Sun, 13 Apr 2025 17:32:47 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/plc-siemens-s7_200/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/p/plc-siemens-s7_200/S7-200%20SMART.png" alt="Featured image of post 西门子S7-200(Smart)" /&gt;&lt;h2 id=&#34;编程经验&#34;&gt;编程经验
+        <guid>%2A/p/plc-siemens-s7_200/</guid>
+        <description>&lt;img src="%2A/%2A/p/plc-siemens-s7_200/S7-200%20SMART.png" alt="Featured image of post 西门子S7-200(Smart)" /&gt;&lt;h2 id=&#34;编程经验&#34;&gt;编程经验
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;自加或自减前面要有沿信号。&lt;/li&gt;
@@ -361,11 +361,11 @@ PLC程序里面先进行数据运算，运算完成之后，再拿运算结果�
         </item>
         <item>
         <title>PID整定</title>
-        <link>https://offer365.github.io/blog/p/industrial-control-pid/</link>
+        <link>%2A/p/industrial-control-pid/</link>
         <pubDate>Sun, 13 Apr 2025 17:19:11 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/industrial-control-pid/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/p/industrial-control-pid/pid.jpg" alt="Featured image of post PID整定" /&gt;&lt;h2 id=&#34;pid&#34;&gt;PID
+        <guid>%2A/p/industrial-control-pid/</guid>
+        <description>&lt;img src="%2A/%2A/p/industrial-control-pid/pid.jpg" alt="Featured image of post PID整定" /&gt;&lt;h2 id=&#34;pid&#34;&gt;PID
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;PID控制器是工业过程控制中广泛采用的一种控制器，其中，P、I、D分别为比例（Proportion）、积分（Integral）、微分（Differential）的简写；&lt;/br&gt;
 将偏差的比例、积分和微分通过线性组合构成控制量，用该控制量对受控对象进行控制，称为PID算法。&lt;/br&gt;
@@ -462,22 +462,22 @@ PID控制综合了比例、积分、微分3种作用，既能加快系统响应�
         </item>
         <item>
         <title>Report</title>
-        <link>https://offer365.github.io/blog/p/mcgs-report/</link>
+        <link>%2A/p/mcgs-report/</link>
         <pubDate>Sun, 13 Apr 2025 16:52:41 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/mcgs-report/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post Report" /&gt;&lt;h2 id=&#34;报表应用&#34;&gt;报表应用
+        <guid>%2A/p/mcgs-report/</guid>
+        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post Report" /&gt;&lt;h2 id=&#34;报表应用&#34;&gt;报表应用
 &lt;/h2&gt;&lt;p&gt;报表中数据源，首记录值和末记录值，并非指组对象中某一列数据的第一次记录值和最后一次的记录值。而是指当前排序方式下,第一行和最后一行数据。&lt;/br&gt;
 把问题想的太复杂了，又踩坑了。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>任意修改存储频率</title>
-        <link>https://offer365.github.io/blog/p/mcgs-cycle-store/</link>
+        <link>%2A/p/mcgs-cycle-store/</link>
         <pubDate>Sun, 13 Apr 2025 16:51:33 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/mcgs-cycle-store/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post 任意修改存储频率" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
+        <guid>%2A/p/mcgs-cycle-store/</guid>
+        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post 任意修改存储频率" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;在调试时，某参数需要以较快的是速度显示在曲线上。在调试完成后，该参数需要以一定的时间存储。&lt;/br&gt;&lt;/li&gt;
@@ -553,11 +553,11 @@ PID控制综合了比例、积分、微分3种作用，既能加快系统响应�
         </item>
         <item>
         <title>统计运行时间</title>
-        <link>https://offer365.github.io/blog/p/mcgs-runtime-script/</link>
+        <link>%2A/p/mcgs-runtime-script/</link>
         <pubDate>Sun, 13 Apr 2025 16:51:02 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/mcgs-runtime-script/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post 统计运行时间" /&gt;&lt;h2 id=&#34;一个统计hmi运行时间的脚本&#34;&gt;一个统计HMI运行时间的脚本
+        <guid>%2A/p/mcgs-runtime-script/</guid>
+        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post 统计运行时间" /&gt;&lt;h2 id=&#34;一个统计hmi运行时间的脚本&#34;&gt;一个统计HMI运行时间的脚本
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;统计HMI本次开机运行时间和累计运行时间&lt;/p&gt;
 &lt;ol&gt;
@@ -612,11 +612,11 @@ PID控制综合了比例、积分、微分3种作用，既能加快系统响应�
         </item>
         <item>
         <title>构件的事件</title>
-        <link>https://offer365.github.io/blog/p/mcgs-component-event/</link>
+        <link>%2A/p/mcgs-component-event/</link>
         <pubDate>Sun, 13 Apr 2025 16:50:44 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/mcgs-component-event/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post 构件的事件" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
+        <guid>%2A/p/mcgs-component-event/</guid>
+        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post 构件的事件" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;在组态时，同样的功能我们可以用更少的控件来实现。这样节省窗口空间。&lt;/br&gt;&lt;/li&gt;
@@ -643,17 +643,17 @@ PID控制综合了比例、积分、微分3种作用，既能加快系统响应�
         </item>
         <item>
         <title>ModbusRtu</title>
-        <link>https://offer365.github.io/blog/p/mcgs-modbus_rtu/</link>
+        <link>%2A/p/mcgs-modbus_rtu/</link>
         <pubDate>Sun, 13 Apr 2025 16:28:51 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/mcgs-modbus_rtu/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post ModbusRtu" /&gt;&lt;h2 id=&#34;mcgs-与-modbus-rtu通讯&#34;&gt;Mcgs 与 Modbus RTU通讯
+        <guid>%2A/p/mcgs-modbus_rtu/</guid>
+        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post ModbusRtu" /&gt;&lt;h2 id=&#34;mcgs-与-modbus-rtu通讯&#34;&gt;Mcgs 与 Modbus RTU通讯
 &lt;/h2&gt;&lt;h3 id=&#34;基础知识&#34;&gt;基础知识
 &lt;/h3&gt;&lt;h4 id=&#34;hmi串口引脚定义&#34;&gt;HMI串口引脚定义
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy.jpg&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;*/p/mcgs-modbus_rtu/ckyjdy.jpg&#34;
 	width=&#34;273&#34;
 	height=&#34;101&#34;
-	srcset=&#34;https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy_hu_6261006bfe11d509.jpg 480w, https://offer365.github.io/blog/p/mcgs-modbus_rtu/ckyjdy_hu_e4b769d1933caaf9.jpg 1024w&#34;
+	srcset=&#34;*/p/mcgs-modbus_rtu/ckyjdy_hu_6261006bfe11d509.jpg 480w, */p/mcgs-modbus_rtu/ckyjdy_hu_e4b769d1933caaf9.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;串口引脚定义&#34;
@@ -801,11 +801,11 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
         </item>
         <item>
         <title>Mcgs触摸屏构件</title>
-        <link>https://offer365.github.io/blog/p/mcgs-pro/</link>
+        <link>%2A/p/mcgs-pro/</link>
         <pubDate>Sun, 13 Apr 2025 16:06:16 +0800</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/mcgs-pro/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/images/mcgs_product_header_back.jpg" alt="Featured image of post Mcgs触摸屏构件" /&gt;&lt;h2 id=&#34;pro_视频教程_构件函数功能基础视频汇总&#34;&gt;Pro_视频教程_构件函数功能基础视频汇总
+        <guid>%2A/p/mcgs-pro/</guid>
+        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post Mcgs触摸屏构件" /&gt;&lt;h2 id=&#34;pro_视频教程_构件函数功能基础视频汇总&#34;&gt;Pro_视频教程_构件函数功能基础视频汇总
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mcgs.lanzoux.com/b01hhakqh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;总链接&lt;/a&gt;&lt;/p&gt;
 &lt;table width=&#34;676&#34; style=&#34;width: 676px;&#34; border=&#34;1&#34; cellspacing=&#34;1&#34; cellpadding=&#34;1&#34;&gt;
@@ -993,11 +993,11 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
         </item>
         <item>
         <title>Chinese Test</title>
-        <link>https://offer365.github.io/blog/p/test-chinese/</link>
+        <link>%2A/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/test-chinese/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" /&gt;&lt;h2 id=&#34;正文测试&#34;&gt;正文测试
+        <guid>%2A/p/test-chinese/</guid>
+        <description>&lt;img src="%2A/%2A/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" /&gt;&lt;h2 id=&#34;正文测试&#34;&gt;正文测试
 &lt;/h2&gt;&lt;p&gt;而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。&lt;/p&gt;
 &lt;p&gt;奥斯特洛夫斯基曾经说过，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　带着这句话，我们还要更加慎重的审视这个问题： 一般来讲，我们都必须务必慎重的考虑考虑。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 带着这些问题，我们来审视一下学生会退会。 我认为， 我认为， 在这种困难的抉择下，本人思来想去，寝食难安。 问题的关键究竟为何？ 每个人都不得不面对这些问题。 在面对这种问题时， 要想清楚，学生会退会，到底是一种怎么样的存在。 我认为， 既然如此， 每个人都不得不面对这些问题。 在面对这种问题时， 那么， 我认为， 学生会退会因何而发生。&lt;/p&gt;
 &lt;h2 id=&#34;引用&#34;&gt;引用
@@ -1009,10 +1009,10 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
 &lt;p&gt;&lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=3aypp_YlBzI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;最暖的憂傷 - 田馥甄&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;图片&#34;&gt;图片
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://offer365.github.io/blog/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;*/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
 	width=&#34;667&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;https://offer365.github.io/blog/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu_e98fca2b4272416e.jpg 480w, https://offer365.github.io/blog/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu_e3d37c9ded115b12.jpg 1024w&#34;
+	srcset=&#34;*/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu_e98fca2b4272416e.jpg 480w, */p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu_e3d37c9ded115b12.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Florian Klauer on Unsplash&#34;
@@ -1022,10 +1022,10 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
 		data-flex-grow=&#34;66&#34;
 		data-flex-basis=&#34;160px&#34;
 	
-&gt;  &lt;img src=&#34;https://offer365.github.io/blog/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
+&gt;  &lt;img src=&#34;*/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;667&#34;
-	srcset=&#34;https://offer365.github.io/blog/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu_e13c58d5189f892c.jpg 480w, https://offer365.github.io/blog/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu_8fc948b7ee525251.jpg 1024w&#34;
+	srcset=&#34;*/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu_e13c58d5189f892c.jpg 480w, */p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu_8fc948b7ee525251.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Luca Bravo on Unsplash&#34;
@@ -1036,10 +1036,10 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
 		data-flex-basis=&#34;359px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://offer365.github.io/blog/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;*/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;750&#34;
-	srcset=&#34;https://offer365.github.io/blog/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu_503c0ebcc5245e10.jpg 480w, https://offer365.github.io/blog/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu_48c98de55fb3c999.jpg 1024w&#34;
+	srcset=&#34;*/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu_503c0ebcc5245e10.jpg 480w, */p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu_48c98de55fb3c999.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Helena Hertz on Unsplash&#34;
@@ -1049,10 +1049,10 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt;  &lt;img src=&#34;https://offer365.github.io/blog/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
+&gt;  &lt;img src=&#34;*/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
 	width=&#34;667&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;https://offer365.github.io/blog/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hu_f81a3588c5c4a663.jpg 480w, https://offer365.github.io/blog/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hu_1c52ba2a4ad7b9a0.jpg 1024w&#34;
+	srcset=&#34;*/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hu_f81a3588c5c4a663.jpg 480w, */p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hu_1c52ba2a4ad7b9a0.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Hudai Gayiran on Unsplash&#34;
@@ -1081,19 +1081,19 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
         </item>
         <item>
         <title>归档</title>
-        <link>https://offer365.github.io/blog/archives/</link>
+        <link>%2A/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://offer365.github.io/blog/archives/</guid>
+        <guid>%2A/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown Syntax Guide</title>
-        <link>https://offer365.github.io/blog/p/markdown-syntax-guide/</link>
+        <link>%2A/p/markdown-syntax-guide/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/markdown-syntax-guide/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <guid>%2A/p/markdown-syntax-guide/</guid>
+        <description>&lt;img src="%2A/%2A/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1
@@ -1317,10 +1317,10 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
         </item>
         <item>
         <title>Math Typesetting</title>
-        <link>https://offer365.github.io/blog/p/math-typesetting/</link>
+        <link>%2A/p/math-typesetting/</link>
         <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/math-typesetting/</guid>
+        <guid>%2A/p/math-typesetting/</guid>
         <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
 &lt;p&gt;In this example we will be using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;KaTeX&lt;/a&gt;&lt;/p&gt;
@@ -1359,11 +1359,11 @@ $$</description>
         </item>
         <item>
         <title>Emoji Support</title>
-        <link>https://offer365.github.io/blog/p/emoji-support/</link>
+        <link>%2A/p/emoji-support/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://offer365.github.io/blog/p/emoji-support/</guid>
-        <description>&lt;img src="https://offer365.github.io/blog/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+        <guid>%2A/p/emoji-support/</guid>
+        <description>&lt;img src="%2A/%2A/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
 &lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
@@ -1390,27 +1390,27 @@ $$</description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://offer365.github.io/blog/%E5%85%B3%E4%BA%8E/</link>
+        <link>%2A/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://offer365.github.io/blog/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>%2A/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://offer365.github.io/blog/search/</link>
+        <link>%2A/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://offer365.github.io/blog/search/</guid>
+        <guid>%2A/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友情链接</title>
-        <link>https://offer365.github.io/blog/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+        <link>%2A/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://offer365.github.io/blog/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
+        <guid>%2A/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
