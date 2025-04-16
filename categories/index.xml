@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 18:02:48 +0800</lastBuildDate><atom:link href="https://blog-9lw.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 16 Apr 2025 20:32:27 +0800</lastBuildDate><atom:link href="https://blog-9lw.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>PLC</title>
+        <link>https://blog-9lw.pages.dev/categories/plc/</link>
+        <pubDate>Wed, 16 Apr 2025 20:32:27 +0800</pubDate>
+        
+        <guid>https://blog-9lw.pages.dev/categories/plc/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>工控</title>
+        <link>https://blog-9lw.pages.dev/categories/%E5%B7%A5%E6%8E%A7/</link>
+        <pubDate>Wed, 16 Apr 2025 20:32:27 +0800</pubDate>
+        
+        <guid>https://blog-9lw.pages.dev/categories/%E5%B7%A5%E6%8E%A7/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>PDF</title>
         <link>https://blog-9lw.pages.dev/categories/pdf/</link>
         <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
@@ -16,19 +32,19 @@
         <description></description>
         </item>
         <item>
-        <title>工控</title>
-        <link>https://blog-9lw.pages.dev/categories/%E5%B7%A5%E6%8E%A7/</link>
-        <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
+        <title>ABB</title>
+        <link>https://blog-9lw.pages.dev/categories/abb/</link>
+        <pubDate>Sun, 13 Apr 2025 17:46:20 +0800</pubDate>
         
-        <guid>https://blog-9lw.pages.dev/categories/%E5%B7%A5%E6%8E%A7/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/abb/</guid>
         <description></description>
         </item>
         <item>
-        <title>PLC</title>
-        <link>https://blog-9lw.pages.dev/categories/plc/</link>
-        <pubDate>Sun, 13 Apr 2025 17:32:47 +0800</pubDate>
+        <title>变频器</title>
+        <link>https://blog-9lw.pages.dev/categories/%E5%8F%98%E9%A2%91%E5%99%A8/</link>
+        <pubDate>Sun, 13 Apr 2025 17:46:20 +0800</pubDate>
         
-        <guid>https://blog-9lw.pages.dev/categories/plc/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/%E5%8F%98%E9%A2%91%E5%99%A8/</guid>
         <description></description>
         </item>
         <item>
@@ -61,6 +77,14 @@
         <pubDate>Sun, 13 Apr 2025 16:28:51 +0800</pubDate>
         
         <guid>https://blog-9lw.pages.dev/categories/modbus/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Hugo</title>
+        <link>https://blog-9lw.pages.dev/categories/hugo/</link>
+        <pubDate>Sun, 13 Apr 2025 15:33:03 +0800</pubDate>
+        
+        <guid>https://blog-9lw.pages.dev/categories/hugo/</guid>
         <description></description>
         </item>
         <item>

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="PID的整定方法">
-<title>PID整定</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="模拟量与数字量的转换计算">
+<title>模拟量计算</title>
 
-<link rel='canonical' href='https://blog-9lw.pages.dev/p/industrial-control-pid/'>
+<link rel='canonical' href='https://blog-9lw.pages.dev/p/analog_quantity_cal/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="PID整定">
-<meta property='og:description' content="PID的整定方法">
-<meta property='og:url' content='https://blog-9lw.pages.dev/p/industrial-control-pid/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="模拟量计算">
+<meta property='og:description' content="模拟量与数字量的转换计算">
+<meta property='og:url' content='https://blog-9lw.pages.dev/p/analog_quantity_cal/'>
 <meta property='og:site_name' content='涛哥的Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-13T17:19:11&#43;08:00'/><meta property='article:modified_time' content='2025-04-13T17:19:11&#43;08:00'/><meta property='og:image' content='https://blog-9lw.pages.dev/p/industrial-control-pid/pid.jpg' />
-<meta name="twitter:title" content="PID整定">
-<meta name="twitter:description" content="PID的整定方法"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://blog-9lw.pages.dev/p/industrial-control-pid/pid.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-16T20:32:27&#43;08:00'/><meta property='article:modified_time' content='2025-04-16T20:32:27&#43;08:00'/><meta property='og:image' content='https://blog-9lw.pages.dev/p/analog_quantity_cal/aqp.jpg' />
+<meta name="twitter:title" content="模拟量计算">
+<meta name="twitter:description" content="模拟量与数字量的转换计算"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog-9lw.pages.dev/p/analog_quantity_cal/aqp.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -285,12 +285,13 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#pid">PID</a>
+    <li>
       <ol>
-        <li><a href="#简介">简介</a></li>
-        <li><a href="#手动调节pid">手动调节PID</a></li>
-        <li><a href="#口诀">口诀</a></li>
-        <li><a href="#总结">总结</a></li>
+        <li><a href="#例题">例题</a>
+          <ol>
+            <li></li>
+          </ol>
+        </li>
       </ol>
     </li>
   </ol>
@@ -307,13 +308,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/industrial-control-pid/">
-                <img src="/p/industrial-control-pid/pid_hu_f62867dcab70fab5.jpg"
-                        srcset="/p/industrial-control-pid/pid_hu_f62867dcab70fab5.jpg 800w, /p/industrial-control-pid/pid_hu_e6ab2b800ca92481.jpg 1600w"
+            <a href="/p/analog_quantity_cal/">
+                <img src="/p/analog_quantity_cal/aqp_hu_e0555d40896e10a0.jpg"
+                        srcset="/p/analog_quantity_cal/aqp_hu_e0555d40896e10a0.jpg 800w, /p/analog_quantity_cal/aqp_hu_92fcbda5f91d9182.jpg 1600w"
                         width="800" 
-                        height="451" 
+                        height="450" 
                         loading="lazy"
-                        alt="Featured image of post PID整定" />
+                        alt="Featured image of post 模拟量计算" />
                 
             </a>
         </div>
@@ -327,8 +328,8 @@
                 工控
             </a>
         
-            <a href="/categories/pid/" >
-                PID
+            <a href="/categories/plc/" >
+                PLC
             </a>
         
     </header>
@@ -336,12 +337,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/industrial-control-pid/">PID整定</a>
+            <a href="/p/analog_quantity_cal/">模拟量计算</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            PID的整定方法
+            模拟量与数字量的转换计算
         </h3>
         
     </div>
@@ -362,7 +363,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-04-13</time>
+                <time class="article-time--published">2025-04-16</time>
             </div>
         
 
@@ -377,7 +378,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 4 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -392,100 +393,106 @@
     <section class="article-content">
     
     
-    <h2 id="pid">PID
-</h2><blockquote>
-<p>PID控制器是工业过程控制中广泛采用的一种控制器，其中，P、I、D分别为比例（Proportion）、积分（Integral）、微分（Differential）的简写；</br>
-将偏差的比例、积分和微分通过线性组合构成控制量，用该控制量对受控对象进行控制，称为PID算法。</br>
-其中KP、KI、KD分别为比例系数、积分系数、微分系数。</br></p></blockquote>
-<h3 id="简介">简介
-</h3><blockquote>
-<p>P表示正比例项。比例控制器的输出u(t)与输入偏差e(t)成正比，能迅速反映偏差，从而减小偏差，但不能消除稳态误差。</br>
-稳态误差是指系统控制过程趋于稳定时，给定值与输出量的实测值之差。</br>
-偏差存在，才能使控制器维持一定的控制量输出，因此比例控制器必然存在着稳态误差。</br>
-由偏差理论知，增大比例虽然可以减小偏差，但不能彻底消除偏差。比例控制作用的大小除与偏差e(t)有关之外，还取决于比例系数Kp的大小。</br>
-比例系数Kp越小，控制作用越小，系统响应越慢；反之，比例系数Kp越大，控制作用也越强，则系统响应越快。</br>
-但是，Kp过大会使系统产生较大的超调和振荡，导致系统的稳定性能变差。</br>
-P=Kp*△ △表示目标值与当前值的误差。</br></p></blockquote>
+    <p>4～20mA模拟量转换公式为：</p>
 <blockquote>
-<p>I表示积分项
-积分作用的强弱，取决于积分时间常数Ti，Ti越大积分作用越弱，反之则越强。</br>
-积分控制作用的存在与偏差e(t)的存在时间有关，只要系统存在着偏差，积分环节就会不断起作用。</br>
-在积分时间足够的情况下，可以完全消除稳态误差，这时积分控制作用将维持不变。Ti越小，积分速度越快，积分作用越强。</br>
-积分作用太强会使系统超调加大，甚至使系统出现振荡。</br>
-I=Ki*(△0+△1+△2+△3&hellip;.)</br></p></blockquote>
-<blockquote>
-<p>D表示微项分，表示误差的变化速率。通过微分可解决震荡问题。</br>
-微分环节有助于系统减小超调，克服振荡，加快系统的响应速度，减小调节时间，从而改善了系统的动态性能，但微分时间常数过大，会使系统出现不稳定。</br>
-微分作用不能消除稳态误差，单独使用意义不大，一般需要与比例、积分控制作用配合使用，构成PD或PID控制。</br>
-D=Kd*((△2-△1)/dt) dt表示检测时间的间隔。比如每秒检测一次，(△2-△1)表示上一次检测的误差与本次检测误差的差值。</p></blockquote>
-<blockquote>
-<p>对于PID控制，在控制偏差输入为阶跃信号时，立即产生比例和微分控制中作用。</br>
-由于在偏差输入的瞬时，变化率非常大，微分控制作用很强，此后微分控制作用迅速衰减，但积分作用越来越大，直至最终消除稳态误差。</br>
-PID控制综合了比例、积分、微分3种作用，既能加快系统响应速度、减小振荡、克服超调，亦能有效消除稳态误差，系统的静态和动态品质得到很大改善，</br>
-因而PID控制器在工业控制中得到了最为广泛的应用。</br></p></blockquote>
-<h3 id="手动调节pid">手动调节PID
+<p>(输入信号-最小值)/(最大值-最小值)×16mA+4mA。
+输入信号指当前工程量，比如当前温度，当前压力。
+最小值，表示工程量的最小值。
+最大值，表示工程量的最大值。</p></blockquote>
+<p>通用公式
+(工程量当前值-工程量最小值)/(工程量最大值-工程量最小值)×(模拟量最大值-模拟量最小值)+模拟量最小值。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{工程量当前值-工程量最小值}{工程量最大值-工程量最小值}×(模拟量最大值-模拟量最小值)+模拟量最小值
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="例题">例题
 </h3><blockquote>
-<p>先调Kp,Ki=0,Kd=0。始终无法到达设定值再加上Ki。当在设定值上下震荡时，再调Kd。</p></blockquote>
-<h3 id="口诀">口诀
-</h3><blockquote>
-<p>参数整定找最佳,从小到大顺序查,</br>
-先是比例后积分,最后再把微分加,</br>
-曲线振荡很频繁,比例度盘要放大,</br>
-曲线漂浮绕大湾,比例度盘往小扳, </br>
-曲线偏离回复慢,积分时间往下降,</br>
-曲线波动周期长,积分时间再加长, </br>
-曲线振荡频率快,先把微分降下来,</br>
-动差大来波动慢,微分时间应加长, </br>
-理想曲线两个波,前高后低4比1。</br></p></blockquote>
-<blockquote>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>调整方式</th>
-          <th>上升时间</th>
-          <th>超调量</th>
-          <th>安定时间</th>
-          <th>稳态误差</th>
-          <th>稳定性</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>↑Kp</td>
-          <td>↓减小</td>
-          <td>↑增加</td>
-          <td>↑小幅增加</td>
-          <td>↓减少</td>
-          <td>↓变差</td>
-      </tr>
-      <tr>
-          <td>↑Ki</td>
-          <td>↓小幅减小</td>
-          <td>↑增加</td>
-          <td>↑增加</td>
-          <td>↓↓大幅减少</td>
-          <td>↓变差</td>
-      </tr>
-      <tr>
-          <td>↑Kd</td>
-          <td>↓小幅减小</td>
-          <td>↓减小</td>
-          <td>↓减小</td>
-          <td>→变化不大</td>
-          <td>↑变好</td>
-      </tr>
-  </tbody>
-</table></div></blockquote>
-<h3 id="总结">总结
-</h3><blockquote>
-<p>通俗的讲，Kp比例条件相当于粗调，积分Ki是精调，把积分时间调到很大（10万），此时积分调节不再起作用。</br>
-当比例调节完成后。把比例调节为之前的80%， 然后有大到小调节积分时间。</br>
-微分的作用属于超前调节，预测误差变化趋势，提前抑制误差。</br>
-微分控制的重点不在于实际测量值的具体数值，而在其变化的方向和速度。</br>
-但局限性，如果测量信号不是很“干净”，存在毛刺干扰，会产生很多不必要甚至错误的控制信号，慎用微分。
-但可以改善系统的响应速度和稳定性，对具有滞后性的被控对象，应加入微分环节。 </br>
-微分时间越大，作用越强。为0时，作用为0</p></blockquote>
-
+<p>有一个比例阀，2-10V  表示开度0-100%，但是通过一个单片机输出的模拟量控制，单片机某个引脚输出0-10V。通过改变单片机内部寄存器A的值来控制该引脚的输出。
+A的取值范围是0-1023。那麽请问，该怎么计算？如果控制比例阀开度为50%。单片机寄存器A的值是多少？</p></blockquote>
+<h5 id="1-单片机输出-0-10v-对应内部寄存器a的值为-0-1023">1, 单片机输出 0-10V 对应内部寄存器A的值为 0-1023
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{0}{10} =  \frac{0}{1023}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="2-单片机要输出-2-10v控制比例阀对应内部寄存器a的值为-2046-1023">2, 单片机要输出 2-10V控制比例阀，对应内部寄存器A的值为 204.6-1023
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{2}{10}  = \frac{204.6}{1023}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="3-单片机内部寄存器a的值为-2046-1023对应-比例阀开度0-100">3, 单片机内部寄存器A的值为 204.6-1023，对应 比例阀开度0-100%
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{204.6}{1023} =&gt;? \frac{0}{100}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="4-根据公式可得当比例阀开度为50时需要设置单片机内部寄存器a的值为6138">4, 根据公式可得，当比例阀开度为50时，需要设置单片机内部寄存器A的值为613.8
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{n}{100}×(1023-204.6)+204.6
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{50}{100}×818.4+204.6=613.8
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="5-验证一下当单片机内部寄存器a的值为6138时输出的电压为6v">5, 验证一下,当单片机内部寄存器A的值为613.8时，输出的电压为6V.
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{613.8}{1023} = \frac{V}{10}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="6-验证一下当比例阀开度0-100对应模拟量2-10v">6, 验证一下,当比例阀开度0-100%，对应模拟量2-10V。
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{0}{100} =&gt;? \frac{2}{10}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{n}{100}×(10-2)+2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="7当比例阀开度50对应模拟量为6v与第5步一致">7，当比例阀开度50%，对应模拟量为6V，与第5步一致。
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\frac{50}{100}×8+2=6
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
@@ -521,23 +528,23 @@ PID控制综合了比例、积分、微分3种作用，既能加快系统响应�
             
                 
 <article class="has-image">
-    <a href="/p/analog_quantity_cal/">
+    <a href="/p/plc-siemens-s7_200/">
         
         
             <div class="article-image">
-                <img src="/p/analog_quantity_cal/aqp.e11b04fce4706eb0b672a7c5a9e9bf65_hu_1dcfc897c7c8c633.jpg" 
+                <img src="/p/plc-siemens-s7_200/S7-200%20SMART.d644f18b03f8fddfdf6f01186f13d4e1_hu_fdb6b8b77211e335.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 模拟量计算"
-                        data-key="analog_quantity_cal" 
-                        data-hash="md5-4RsE/ORwbrC2cqfFqem/ZQ==">
+                        alt="Featured image of post 西门子S7-200(Smart)"
+                        data-key="plc-siemens-s7_200" 
+                        data-hash="md5-1kTxiwP4/d/fbwEYbxPU4Q==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">模拟量计算</h2>
+            <h2 class="article-title">西门子S7-200(Smart)</h2>
         </div>
     </a>
 </article>
@@ -582,23 +589,23 @@ PID控制综合了比例、积分、微分3种作用，既能加快系统响应�
             
                 
 <article class="has-image">
-    <a href="/p/plc-siemens-s7_200/">
+    <a href="/p/industrial-control-pid/">
         
         
             <div class="article-image">
-                <img src="/p/plc-siemens-s7_200/S7-200%20SMART.d644f18b03f8fddfdf6f01186f13d4e1_hu_fdb6b8b77211e335.png" 
+                <img src="/p/industrial-control-pid/pid.25683575f9a89707307687c67d5cd4a8_hu_19a200062ceeb99d.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 西门子S7-200(Smart)"
-                        data-key="plc-siemens-s7_200" 
-                        data-hash="md5-1kTxiwP4/d/fbwEYbxPU4Q==">
+                        alt="Featured image of post PID整定"
+                        data-key="industrial-control-pid" 
+                        data-hash="md5-JWg1dfmolwcwdofGfVzUqA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">西门子S7-200(Smart)</h2>
+            <h2 class="article-title">PID整定</h2>
         </div>
     </a>
 </article>
