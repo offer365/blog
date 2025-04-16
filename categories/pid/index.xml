@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>PID on 涛哥的Blog</title>
-        <link>%2A/categories/pid/</link>
+        <link>https://blog-9lw.pages.dev/categories/pid/</link>
         <description>Recent content in PID on 涛哥的Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 17:19:11 +0800</lastBuildDate><atom:link href="%2A/categories/pid/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 17:19:11 +0800</lastBuildDate><atom:link href="https://blog-9lw.pages.dev/categories/pid/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>PID整定</title>
-        <link>%2A/p/industrial-control-pid/</link>
+        <link>https://blog-9lw.pages.dev/p/industrial-control-pid/</link>
         <pubDate>Sun, 13 Apr 2025 17:19:11 +0800</pubDate>
         
-        <guid>%2A/p/industrial-control-pid/</guid>
-        <description>&lt;img src="%2A/%2A/p/industrial-control-pid/pid.jpg" alt="Featured image of post PID整定" /&gt;&lt;h2 id=&#34;pid&#34;&gt;PID
+        <guid>https://blog-9lw.pages.dev/p/industrial-control-pid/</guid>
+        <description>&lt;img src="https://blog-9lw.pages.dev/p/industrial-control-pid/pid.jpg" alt="Featured image of post PID整定" /&gt;&lt;h2 id=&#34;pid&#34;&gt;PID
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;PID控制器是工业过程控制中广泛采用的一种控制器，其中，P、I、D分别为比例（Proportion）、积分（Integral）、微分（Differential）的简写；&lt;/br&gt;
 将偏差的比例、积分和微分通过线性组合构成控制量，用该控制量对受控对象进行控制，称为PID算法。&lt;/br&gt;

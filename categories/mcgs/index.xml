@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Mcgs on 涛哥的Blog</title>
-        <link>%2A/categories/mcgs/</link>
+        <link>https://blog-9lw.pages.dev/categories/mcgs/</link>
         <description>Recent content in Mcgs on 涛哥的Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 16:52:41 +0800</lastBuildDate><atom:link href="%2A/categories/mcgs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 16:52:41 +0800</lastBuildDate><atom:link href="https://blog-9lw.pages.dev/categories/mcgs/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Report</title>
-        <link>%2A/p/mcgs-report/</link>
+        <link>https://blog-9lw.pages.dev/p/mcgs-report/</link>
         <pubDate>Sun, 13 Apr 2025 16:52:41 +0800</pubDate>
         
-        <guid>%2A/p/mcgs-report/</guid>
-        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post Report" /&gt;&lt;h2 id=&#34;报表应用&#34;&gt;报表应用
+        <guid>https://blog-9lw.pages.dev/p/mcgs-report/</guid>
+        <description>&lt;img src="https://blog-9lw.pages.dev/images/mcgs_product_header_back.jpg" alt="Featured image of post Report" /&gt;&lt;h2 id=&#34;报表应用&#34;&gt;报表应用
 &lt;/h2&gt;&lt;p&gt;报表中数据源，首记录值和末记录值，并非指组对象中某一列数据的第一次记录值和最后一次的记录值。而是指当前排序方式下,第一行和最后一行数据。&lt;/br&gt;
 把问题想的太复杂了，又踩坑了。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>任意修改存储频率</title>
-        <link>%2A/p/mcgs-cycle-store/</link>
+        <link>https://blog-9lw.pages.dev/p/mcgs-cycle-store/</link>
         <pubDate>Sun, 13 Apr 2025 16:51:33 +0800</pubDate>
         
-        <guid>%2A/p/mcgs-cycle-store/</guid>
-        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post 任意修改存储频率" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
+        <guid>https://blog-9lw.pages.dev/p/mcgs-cycle-store/</guid>
+        <description>&lt;img src="https://blog-9lw.pages.dev/images/mcgs_product_header_back.jpg" alt="Featured image of post 任意修改存储频率" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;在调试时，某参数需要以较快的是速度显示在曲线上。在调试完成后，该参数需要以一定的时间存储。&lt;/br&gt;&lt;/li&gt;
@@ -100,11 +100,11 @@
         </item>
         <item>
         <title>统计运行时间</title>
-        <link>%2A/p/mcgs-runtime-script/</link>
+        <link>https://blog-9lw.pages.dev/p/mcgs-runtime-script/</link>
         <pubDate>Sun, 13 Apr 2025 16:51:02 +0800</pubDate>
         
-        <guid>%2A/p/mcgs-runtime-script/</guid>
-        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post 统计运行时间" /&gt;&lt;h2 id=&#34;一个统计hmi运行时间的脚本&#34;&gt;一个统计HMI运行时间的脚本
+        <guid>https://blog-9lw.pages.dev/p/mcgs-runtime-script/</guid>
+        <description>&lt;img src="https://blog-9lw.pages.dev/images/mcgs_product_header_back.jpg" alt="Featured image of post 统计运行时间" /&gt;&lt;h2 id=&#34;一个统计hmi运行时间的脚本&#34;&gt;一个统计HMI运行时间的脚本
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;统计HMI本次开机运行时间和累计运行时间&lt;/p&gt;
 &lt;ol&gt;
@@ -159,11 +159,11 @@
         </item>
         <item>
         <title>构件的事件</title>
-        <link>%2A/p/mcgs-component-event/</link>
+        <link>https://blog-9lw.pages.dev/p/mcgs-component-event/</link>
         <pubDate>Sun, 13 Apr 2025 16:50:44 +0800</pubDate>
         
-        <guid>%2A/p/mcgs-component-event/</guid>
-        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post 构件的事件" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
+        <guid>https://blog-9lw.pages.dev/p/mcgs-component-event/</guid>
+        <description>&lt;img src="https://blog-9lw.pages.dev/images/mcgs_product_header_back.jpg" alt="Featured image of post 构件的事件" /&gt;&lt;h2 id=&#34;需求&#34;&gt;需求
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;在组态时，同样的功能我们可以用更少的控件来实现。这样节省窗口空间。&lt;/br&gt;&lt;/li&gt;
@@ -190,17 +190,17 @@
         </item>
         <item>
         <title>ModbusRtu</title>
-        <link>%2A/p/mcgs-modbus_rtu/</link>
+        <link>https://blog-9lw.pages.dev/p/mcgs-modbus_rtu/</link>
         <pubDate>Sun, 13 Apr 2025 16:28:51 +0800</pubDate>
         
-        <guid>%2A/p/mcgs-modbus_rtu/</guid>
-        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post ModbusRtu" /&gt;&lt;h2 id=&#34;mcgs-与-modbus-rtu通讯&#34;&gt;Mcgs 与 Modbus RTU通讯
+        <guid>https://blog-9lw.pages.dev/p/mcgs-modbus_rtu/</guid>
+        <description>&lt;img src="https://blog-9lw.pages.dev/images/mcgs_product_header_back.jpg" alt="Featured image of post ModbusRtu" /&gt;&lt;h2 id=&#34;mcgs-与-modbus-rtu通讯&#34;&gt;Mcgs 与 Modbus RTU通讯
 &lt;/h2&gt;&lt;h3 id=&#34;基础知识&#34;&gt;基础知识
 &lt;/h3&gt;&lt;h4 id=&#34;hmi串口引脚定义&#34;&gt;HMI串口引脚定义
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;*/p/mcgs-modbus_rtu/ckyjdy.jpg&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://blog-9lw.pages.dev/p/mcgs-modbus_rtu/ckyjdy.jpg&#34;
 	width=&#34;273&#34;
 	height=&#34;101&#34;
-	srcset=&#34;*/p/mcgs-modbus_rtu/ckyjdy_hu_6261006bfe11d509.jpg 480w, */p/mcgs-modbus_rtu/ckyjdy_hu_e4b769d1933caaf9.jpg 1024w&#34;
+	srcset=&#34;https://blog-9lw.pages.dev/p/mcgs-modbus_rtu/ckyjdy_hu_6261006bfe11d509.jpg 480w, https://blog-9lw.pages.dev/p/mcgs-modbus_rtu/ckyjdy_hu_e4b769d1933caaf9.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;串口引脚定义&#34;
@@ -348,11 +348,11 @@ CPU 字的格式与 Modbus 寄存器相同。编号较小的 V 存储器地址�
         </item>
         <item>
         <title>Mcgs触摸屏构件</title>
-        <link>%2A/p/mcgs-pro/</link>
+        <link>https://blog-9lw.pages.dev/p/mcgs-pro/</link>
         <pubDate>Sun, 13 Apr 2025 16:06:16 +0800</pubDate>
         
-        <guid>%2A/p/mcgs-pro/</guid>
-        <description>&lt;img src="/%2A/images/mcgs_product_header_back.jpg" alt="Featured image of post Mcgs触摸屏构件" /&gt;&lt;h2 id=&#34;pro_视频教程_构件函数功能基础视频汇总&#34;&gt;Pro_视频教程_构件函数功能基础视频汇总
+        <guid>https://blog-9lw.pages.dev/p/mcgs-pro/</guid>
+        <description>&lt;img src="https://blog-9lw.pages.dev/images/mcgs_product_header_back.jpg" alt="Featured image of post Mcgs触摸屏构件" /&gt;&lt;h2 id=&#34;pro_视频教程_构件函数功能基础视频汇总&#34;&gt;Pro_视频教程_构件函数功能基础视频汇总
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mcgs.lanzoux.com/b01hhakqh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;总链接&lt;/a&gt;&lt;/p&gt;
 &lt;table width=&#34;676&#34; style=&#34;width: 676px;&#34; border=&#34;1&#34; cellspacing=&#34;1&#34; cellpadding=&#34;1&#34;&gt;

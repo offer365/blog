@@ -2,97 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 涛哥的Blog</title>
-        <link>%2A/categories/</link>
+        <link>https://blog-9lw.pages.dev/categories/</link>
         <description>Recent content in Categories on 涛哥的Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 18:02:48 +0800</lastBuildDate><atom:link href="%2A/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 18:02:48 +0800</lastBuildDate><atom:link href="https://blog-9lw.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>PDF</title>
-        <link>%2A/categories/pdf/</link>
+        <link>https://blog-9lw.pages.dev/categories/pdf/</link>
         <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
         
-        <guid>%2A/categories/pdf/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/pdf/</guid>
         <description></description>
         </item>
         <item>
         <title>工控</title>
-        <link>%2A/categories/%E5%B7%A5%E6%8E%A7/</link>
+        <link>https://blog-9lw.pages.dev/categories/%E5%B7%A5%E6%8E%A7/</link>
         <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
         
-        <guid>%2A/categories/%E5%B7%A5%E6%8E%A7/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/%E5%B7%A5%E6%8E%A7/</guid>
         <description></description>
         </item>
         <item>
         <title>PLC</title>
-        <link>%2A/categories/plc/</link>
+        <link>https://blog-9lw.pages.dev/categories/plc/</link>
         <pubDate>Sun, 13 Apr 2025 17:32:47 +0800</pubDate>
         
-        <guid>%2A/categories/plc/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/plc/</guid>
         <description></description>
         </item>
         <item>
         <title>西门子</title>
-        <link>%2A/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</link>
+        <link>https://blog-9lw.pages.dev/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</link>
         <pubDate>Sun, 13 Apr 2025 17:32:47 +0800</pubDate>
         
-        <guid>%2A/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</guid>
         <description></description>
         </item>
         <item>
         <title>PID</title>
-        <link>%2A/categories/pid/</link>
+        <link>https://blog-9lw.pages.dev/categories/pid/</link>
         <pubDate>Sun, 13 Apr 2025 17:19:11 +0800</pubDate>
         
-        <guid>%2A/categories/pid/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/pid/</guid>
         <description></description>
         </item>
         <item>
         <title>Mcgs</title>
-        <link>%2A/categories/mcgs/</link>
+        <link>https://blog-9lw.pages.dev/categories/mcgs/</link>
         <pubDate>Sun, 13 Apr 2025 16:52:41 +0800</pubDate>
         
-        <guid>%2A/categories/mcgs/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/mcgs/</guid>
         <description></description>
         </item>
         <item>
         <title>Modbus</title>
-        <link>%2A/categories/modbus/</link>
+        <link>https://blog-9lw.pages.dev/categories/modbus/</link>
         <pubDate>Sun, 13 Apr 2025 16:28:51 +0800</pubDate>
         
-        <guid>%2A/categories/modbus/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/modbus/</guid>
         <description></description>
         </item>
         <item>
         <title>Test</title>
-        <link>%2A/categories/test/</link>
+        <link>https://blog-9lw.pages.dev/categories/test/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>%2A/categories/test/</guid>
-        <description>&lt;img src="%2A/%2A/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>https://blog-9lw.pages.dev/categories/test/</guid>
+        <description>&lt;img src="https://blog-9lw.pages.dev/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         <item>
         <title>测试</title>
-        <link>%2A/categories/%E6%B5%8B%E8%AF%95/</link>
+        <link>https://blog-9lw.pages.dev/categories/%E6%B5%8B%E8%AF%95/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>%2A/categories/%E6%B5%8B%E8%AF%95/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/%E6%B5%8B%E8%AF%95/</guid>
         <description></description>
         </item>
         <item>
         <title>Syntax</title>
-        <link>%2A/categories/syntax/</link>
+        <link>https://blog-9lw.pages.dev/categories/syntax/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>%2A/categories/syntax/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/syntax/</guid>
         <description></description>
         </item>
         <item>
         <title>Themes</title>
-        <link>%2A/categories/themes/</link>
+        <link>https://blog-9lw.pages.dev/categories/themes/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>%2A/categories/themes/</guid>
+        <guid>https://blog-9lw.pages.dev/categories/themes/</guid>
         <description></description>
         </item>
         

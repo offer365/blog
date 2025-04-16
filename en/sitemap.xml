@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>%2A/en/categories/</loc>
+    <loc>https://blog-9lw.pages.dev/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="%2A/categories/"
+                href="https://blog-9lw.pages.dev/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="%2A/en/categories/"
+                href="https://blog-9lw.pages.dev/en/categories/"
                 />
   </url><url>
-    <loc>%2A/en/</loc>
+    <loc>https://blog-9lw.pages.dev/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="%2A/"
+                href="https://blog-9lw.pages.dev/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="%2A/en/"
+                href="https://blog-9lw.pages.dev/en/"
                 />
   </url><url>
-    <loc>%2A/en/tags/</loc>
+    <loc>https://blog-9lw.pages.dev/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="%2A/tags/"
+                href="https://blog-9lw.pages.dev/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="%2A/en/tags/"
+                href="https://blog-9lw.pages.dev/en/tags/"
                 />
   </url>
 </urlset>

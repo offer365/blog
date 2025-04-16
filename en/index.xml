@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Example Site</title>
-        <link>%2A/en/</link>
+        <link>https://blog-9lw.pages.dev/en/</link>
         <description>Recent content on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>Example Person</copyright><atom:link href="%2A/en/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Example Person</copyright><atom:link href="https://blog-9lw.pages.dev/en/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

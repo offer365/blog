@@ -2,148 +2,148 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>%2A/</loc>
+    <loc>https://blog-9lw.pages.dev/</loc>
     <lastmod>2025-04-13T18:25:18+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="%2A/en/"
+                href="https://blog-9lw.pages.dev/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="%2A/"
+                href="https://blog-9lw.pages.dev/"
                 />
   </url><url>
-    <loc>%2A/post/</loc>
+    <loc>https://blog-9lw.pages.dev/post/</loc>
     <lastmod>2025-04-13T18:25:18+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/todo/</loc>
+    <loc>https://blog-9lw.pages.dev/p/todo/</loc>
     <lastmod>2025-04-13T18:25:18+08:00</lastmod>
   </url><url>
-    <loc>%2A/categories/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/</loc>
     <lastmod>2025-04-13T18:02:48+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="%2A/en/categories/"
+                href="https://blog-9lw.pages.dev/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="%2A/categories/"
+                href="https://blog-9lw.pages.dev/categories/"
                 />
   </url><url>
-    <loc>%2A/categories/pdf/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/pdf/</loc>
     <lastmod>2025-04-13T18:02:48+08:00</lastmod>
   </url><url>
-    <loc>%2A/categories/%E5%B7%A5%E6%8E%A7/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/%E5%B7%A5%E6%8E%A7/</loc>
     <lastmod>2025-04-13T18:02:48+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/device-pdf/</loc>
+    <loc>https://blog-9lw.pages.dev/p/device-pdf/</loc>
     <lastmod>2025-04-13T18:02:48+08:00</lastmod>
   </url><url>
-    <loc>%2A/categories/plc/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/plc/</loc>
     <lastmod>2025-04-13T17:32:47+08:00</lastmod>
   </url><url>
-    <loc>%2A/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/%E8%A5%BF%E9%97%A8%E5%AD%90/</loc>
     <lastmod>2025-04-13T17:32:47+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/plc-siemens-s7_200/</loc>
+    <loc>https://blog-9lw.pages.dev/p/plc-siemens-s7_200/</loc>
     <lastmod>2025-04-13T17:32:47+08:00</lastmod>
   </url><url>
-    <loc>%2A/categories/pid/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/pid/</loc>
     <lastmod>2025-04-13T17:19:11+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/industrial-control-pid/</loc>
+    <loc>https://blog-9lw.pages.dev/p/industrial-control-pid/</loc>
     <lastmod>2025-04-13T17:19:11+08:00</lastmod>
   </url><url>
-    <loc>%2A/categories/mcgs/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/mcgs/</loc>
     <lastmod>2025-04-13T16:52:41+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/mcgs-report/</loc>
+    <loc>https://blog-9lw.pages.dev/p/mcgs-report/</loc>
     <lastmod>2025-04-13T16:52:41+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/mcgs-cycle-store/</loc>
+    <loc>https://blog-9lw.pages.dev/p/mcgs-cycle-store/</loc>
     <lastmod>2025-04-13T16:51:33+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/mcgs-runtime-script/</loc>
+    <loc>https://blog-9lw.pages.dev/p/mcgs-runtime-script/</loc>
     <lastmod>2025-04-13T16:51:02+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/mcgs-component-event/</loc>
+    <loc>https://blog-9lw.pages.dev/p/mcgs-component-event/</loc>
     <lastmod>2025-04-13T16:50:44+08:00</lastmod>
   </url><url>
-    <loc>%2A/categories/modbus/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/modbus/</loc>
     <lastmod>2025-04-13T16:28:51+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/mcgs-modbus_rtu/</loc>
+    <loc>https://blog-9lw.pages.dev/p/mcgs-modbus_rtu/</loc>
     <lastmod>2025-04-13T16:28:51+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/mcgs-pro/</loc>
+    <loc>https://blog-9lw.pages.dev/p/mcgs-pro/</loc>
     <lastmod>2025-04-13T16:06:16+08:00</lastmod>
   </url><url>
-    <loc>%2A/p/test-chinese/</loc>
+    <loc>https://blog-9lw.pages.dev/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/categories/test/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/page/</loc>
+    <loc>https://blog-9lw.pages.dev/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/archives/</loc>
+    <loc>https://blog-9lw.pages.dev/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/tags/css/</loc>
+    <loc>https://blog-9lw.pages.dev/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/tags/html/</loc>
+    <loc>https://blog-9lw.pages.dev/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/tags/markdown/</loc>
+    <loc>https://blog-9lw.pages.dev/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/p/markdown-syntax-guide/</loc>
+    <loc>https://blog-9lw.pages.dev/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/categories/syntax/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/tags/</loc>
+    <loc>https://blog-9lw.pages.dev/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="%2A/en/tags/"
+                href="https://blog-9lw.pages.dev/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="%2A/tags/"
+                href="https://blog-9lw.pages.dev/tags/"
                 />
   </url><url>
-    <loc>%2A/categories/themes/</loc>
+    <loc>https://blog-9lw.pages.dev/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/tags/themes/</loc>
+    <loc>https://blog-9lw.pages.dev/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/p/math-typesetting/</loc>
+    <loc>https://blog-9lw.pages.dev/p/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/tags/emoji/</loc>
+    <loc>https://blog-9lw.pages.dev/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/p/emoji-support/</loc>
+    <loc>https://blog-9lw.pages.dev/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>%2A/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://blog-9lw.pages.dev/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>%2A/search/</loc>
+    <loc>https://blog-9lw.pages.dev/search/</loc>
   </url><url>
-    <loc>%2A/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://blog-9lw.pages.dev/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
   </url>
 </urlset>
