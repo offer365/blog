@@ -14,8 +14,6 @@
 <meta name="twitter:title" content="Hugo">
 <meta name="twitter:description" content="Hugo的基本使用方法"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://blog-9lw.pages.dev/p/hugo-use/hugo-logo-wide.svg' />
-    <link rel="shortcut icon" href="/favicon.ico" />
-
     </head>
     <body class="
     article-page
@@ -42,7 +40,7 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -64,8 +62,6 @@
                     
                 
                 </a>
-                
-                    <span class="emoji">😆</span>
                 
             </figure>
             
@@ -263,42 +259,7 @@
     </ol>
 </aside>
 
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                
-    <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">目录</h2>
-        
-        <div class="widget--toc">
-            <nav id="TableOfContents">
-  <ol>
-    <li>
-      <ol>
-        <li><a href="#创建一个文章">创建一个文章</a></li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-        </div>
-    </section>
-
-            
-        
-    </aside>
-
+    
 
             <main class="main full-width">
     <article class="has-image main-article">
@@ -351,7 +312,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-04-13</time>
+                <time class="article-time--published">Apr 13, 2025</time>
             </div>
         
 
@@ -387,11 +348,16 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo.exe new content post/hugo/index.md
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo.exe new content content/post/hugo/index.md
 </span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
 <p>上述代码表示 在 content/post 下面新建一个文档</p></blockquote>
+<h3 id="文章置顶">文章置顶
+</h3><blockquote>
+<p>在文章的元数据中 weight 字段表示权重，值最小的会置顶。</p></blockquote>
+<p><a class="link" href="https://fatesinger.com/?s=hugo"  target="_blank" rel="noopener"
+    >参考教程</a></p>
 <p><a class="link" href="https://stack.jimmycai.com/guide/getting-started"  target="_blank" rel="noopener"
     >stack文档</a></p>
 
@@ -401,18 +367,6 @@
     <footer class="article-footer">
     
 
-    
-    <section class="article-copyright">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
-</svg>
-
-
-
-        <span>Licensed under CC BY-NC-SA 4.0</span>
-    </section>
     </footer>
 
 
@@ -432,14 +386,10 @@
     <section class="copyright">
         &copy; 
         
-            2020 - 
-        
         2025 Example Person
     </section>
     
     <section class="powerby">
-        
-            爱科技，爱生活 <br/>
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>

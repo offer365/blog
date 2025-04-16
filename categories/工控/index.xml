@@ -8,6 +8,63 @@
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
         <lastBuildDate>Wed, 16 Apr 2025 20:32:27 +0800</lastBuildDate><atom:link href="https://blog-9lw.pages.dev/categories/%E5%B7%A5%E6%8E%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>一些设备的PDF文档</title>
+        <link>https://blog-9lw.pages.dev/p/device-pdf/</link>
+        <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
+        
+        <guid>https://blog-9lw.pages.dev/p/device-pdf/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;雷达液位计协议&#34;&gt;雷达液位计协议
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;ldywjtxxy.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;静压式液位计&#34;&gt;静压式液位计
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;jyywjsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;超声波流量计说明书&#34;&gt;超声波流量计说明书
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;csblljsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;新道次隔膜泵说明书&#34;&gt;新道次隔膜泵说明书
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;xdcgmbsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;新道次隔膜泵通讯协议&#34;&gt;新道次隔膜泵通讯协议
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;xdcgmbtxxy.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;变频泵变频器说明书&#34;&gt;变频泵变频器说明书
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;HS710.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;abb变频器-acs510说明书&#34;&gt;ABB变频器 ACS510说明书
+&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;vfd-abb-acs510-manual.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
         <title>模拟量计算</title>
         <link>https://blog-9lw.pages.dev/p/analog_quantity_cal/</link>
         <pubDate>Wed, 16 Apr 2025 20:32:27 +0800</pubDate>
@@ -113,63 +170,6 @@ A的取值范围是0-1023。那麽请问，该怎么计算？如果控制比例�
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>一些设备的PDF文档</title>
-        <link>https://blog-9lw.pages.dev/p/device-pdf/</link>
-        <pubDate>Sun, 13 Apr 2025 18:02:48 +0800</pubDate>
-        
-        <guid>https://blog-9lw.pages.dev/p/device-pdf/</guid>
-        <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;雷达液位计协议&#34;&gt;雷达液位计协议
-&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;ldywjtxxy.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;静压式液位计&#34;&gt;静压式液位计
-&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;jyywjsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;超声波流量计说明书&#34;&gt;超声波流量计说明书
-&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;csblljsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;新道次隔膜泵说明书&#34;&gt;新道次隔膜泵说明书
-&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;xdcgmbsms.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;新道次隔膜泵通讯协议&#34;&gt;新道次隔膜泵通讯协议
-&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;xdcgmbtxxy.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;变频泵变频器说明书&#34;&gt;变频泵变频器说明书
-&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;HS710.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3 id=&#34;abb变频器-acs510说明书&#34;&gt;ABB变频器 ACS510说明书
-&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;vfd-abb-acs510-manual.pdf&#34; &gt;点击下载&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-</description>
         </item>
         <item>
         <title>ABB变频器Acs510</title>
